@@ -1,17 +1,13 @@
-# KAC Vault custom website prototype
+# KAC Vault Website V5
 
-Includes:
-- Custom KAC Vault homepage
-- Searchable current inventory (C-0001 through C-0040)
-- First full item page for C-0036
-- Actual front/back/CGC-label images for C-0036
-- QR-ready permanent SKU architecture concept
+Preview build for KAC Vault.
 
-Open `index.html` locally to view.
+## V5 changes
+- Removed the “Actual items / Permanent records” strip from the homepage.
+- Added a dedicated visual `collection.html` gallery.
+- “Back to collection” on collectible pages now returns to the visual gallery.
+- The searchable 40-item screen remains available separately as **Full Inventory**.
+- Homepage Collection/Browse links now open the visual collection.
+- Preserves the KAC Vault V4 design, five photographed CGC slabs, item records, inventory, CNAME and assets.
 
-Next:
-1. Add clean photos for the remaining 39 items.
-2. Choose hosting.
-3. Point kacvault.com to the host.
-4. Convert static inventory JSON to a real database when needed.
-5. Add e-commerce later without changing SKU structure.
+To preview locally, extract the ZIP first and open `index.html`.

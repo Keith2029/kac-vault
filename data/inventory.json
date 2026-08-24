@@ -469,10 +469,13 @@
     "cert": "0944526027",
     "pages": "Off-White to White",
     "photos": {
-      "front": "assets/c-0036-front.jpeg",
-      "back": "assets/c-0036-back.jpeg",
-      "label": "assets/c-0036-label.jpeg"
-    }
+      "front": "assets/c-0036-front-v2.jpg",
+      "label": "assets/c-0036-label-v2.jpg",
+      "back": "assets/c-0036-back-v2.jpg"
+    },
+    "note": "First solo Wolverine comic; Yukio cameo on last page",
+    "creators": "Chris Claremont story \u00b7 Frank Miller & Joe Rubinstein cover/art",
+    "slug": "item-c-0036.html"
   },
   {
     "sku": "C-0037",
@@ -485,7 +488,17 @@
     "significance": "Strong Bronze Age #1",
     "low": 250,
     "high": 500,
-    "priority": "Done"
+    "priority": "Done",
+    "cert": "",
+    "pages": "White Pages",
+    "note": "First issue of the Iron Fist solo series; Iron Fist battles Iron Man",
+    "creators": "John Byrne & Al McWilliams art",
+    "photos": {
+      "front": "assets/c-0037-front-v2.jpg",
+      "label": "assets/c-0037-label-v2.jpg",
+      "back": "assets/c-0037-back-v2.jpg"
+    },
+    "slug": "item-c-0037.html"
   },
   {
     "sku": "C-0038",
@@ -498,7 +511,17 @@
     "significance": "First issue of ongoing Wolverine series",
     "low": 300,
     "high": 500,
-    "priority": "Done"
+    "priority": "Done",
+    "cert": "0952942018",
+    "pages": "White Pages",
+    "note": "First issue of the ongoing Wolverine series; 1st Wolverine as Patch",
+    "creators": "Chris Claremont story \u00b7 John Buscema & Al Williamson art \u00b7 John Buscema cover",
+    "photos": {
+      "front": "assets/c-0038-front-v2.jpg",
+      "label": "assets/c-0038-label-v2.jpg",
+      "back": "assets/c-0038-back-v2.jpg"
+    },
+    "slug": "item-c-0038.html"
   },
   {
     "sku": "C-0039",
@@ -511,7 +534,17 @@
     "significance": "Doomsday cameo",
     "low": 50,
     "high": 100,
-    "priority": "Done"
+    "priority": "Done",
+    "cert": "1224637011",
+    "pages": "White Pages",
+    "note": "Doomsday cameo on last page",
+    "creators": "Louise Simonson story \u00b7 Jon Bogdanove & Bob McLeod art \u00b7 Jon Bogdanove & Dennis Janke cover",
+    "photos": {
+      "front": "assets/c-0039-front-v2.jpg",
+      "label": "assets/c-0039-label-v2.jpg",
+      "back": "assets/c-0039-back-v2.jpg"
+    },
+    "slug": "item-c-0039.html"
   },
   {
     "sku": "C-0040",
@@ -524,6 +557,16 @@
     "significance": "Sabretooth appearance",
     "low": 100,
     "high": 200,
-    "priority": "Done"
+    "priority": "Done",
+    "cert": "0609939001",
+    "pages": "White Pages",
+    "note": "Sabretooth appearance; Wolverine pin-up on back cover",
+    "creators": "Chris Claremont story \u00b7 John Buscema & Bill Sienkiewicz art \u00b7 Bill Sienkiewicz cover",
+    "photos": {
+      "front": "assets/c-0040-front-v2.jpg",
+      "label": "assets/c-0040-label-v2.jpg",
+      "back": "assets/c-0040-back-v2.jpg"
+    },
+    "slug": "item-c-0040.html"
   }
 ]
