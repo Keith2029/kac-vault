@@ -1,37 +1,161 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="KAC Vault — a curated private collection of comics, graded books, trading cards and memorabilia."><title>KAC Vault — Curated Comics, Cards & Collectibles</title><link rel="stylesheet" href="css/styles.css"></head><body>
 
-<!-- V9.1 CINEMATIC VAULT START -->
+<!-- V9.2 CINEMATIC VAULT START -->
 <style>
-#v91Vault{position:fixed;inset:0;z-index:2147483000;background:#050505;overflow:hidden;transition:opacity .75s ease,visibility .75s ease}
-#v91Vault.v91-hidden{opacity:0;visibility:hidden;pointer-events:none}
-.v91-scene{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;transition:opacity .85s ease,transform 1.65s cubic-bezier(.2,.75,.2,1);user-select:none;-webkit-user-drag:none}
-.v91-closed{opacity:1}.v91-open{opacity:0;transform:scale(1.018)}
-#v91Vault.v91-opening .v91-closed{opacity:0;transform:scale(1.025)}
-#v91Vault.v91-opening .v91-open{opacity:1;transform:scale(1)}
-.v91-hotspot{position:absolute;z-index:5;border:0;background:transparent;cursor:pointer;color:transparent;font-size:0}
-.v91-open-btn{left:6.8%;top:64%;width:18%;height:9%}
-.v91-enter-btn{right:6.2%;top:63%;width:18%;height:10%;opacity:0;pointer-events:none;transition:opacity .2s linear 1s}
-#v91Vault.v91-opening .v91-open-btn{pointer-events:none}
-#v91Vault.v91-opening .v91-enter-btn{opacity:1;pointer-events:auto}
-.v91-hotspot:focus-visible{outline:3px solid #d2a657;outline-offset:3px;border-radius:6px}
-@media(max-aspect-ratio:4/3){.v91-scene{object-fit:contain;background:#050505}.v91-open-btn{left:5%;top:63%;width:27%;height:10%}.v91-enter-btn{right:5%;top:62%;width:27%;height:11%}}
-@media(prefers-reduced-motion:reduce){#v91Vault,.v91-scene,.v91-enter-btn{transition-duration:.01ms!important}}
+#v92Vault{
+  position:fixed;
+  inset:0;
+  z-index:2147483000;
+  background:#060606;
+  overflow:hidden;
+  transition:opacity .7s ease,visibility .7s ease;
+}
+#v92Vault.v92-hide{opacity:0;visibility:hidden;pointer-events:none}
+.v92-scene{
+  position:absolute;
+  inset:0;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  transition:opacity .9s ease,transform 1.4s cubic-bezier(.22,.8,.22,1);
+}
+.v92-closed{
+  background-image:url("assets/vault-closed-v9.jpg");
+  opacity:1;
+}
+.v92-open{
+  background-image:url("assets/vault-open-state-v9.jpg");
+  opacity:0;
+  transform:scale(1.035);
+}
+#v92Vault.v92-opening .v92-closed{opacity:0;transform:scale(1.03)}
+#v92Vault.v92-opening .v92-open{opacity:1;transform:scale(1)}
+
+.v92-open-hotspots{
+  position:absolute;
+  inset:0;
+  z-index:5;
+  opacity:0;
+  pointer-events:none;
+  transition:opacity .45s ease .55s;
+}
+#v92Vault.v92-opening .v92-open-hotspots{
+  opacity:1;
+  pointer-events:auto;
+}
+.v92-open-btn{
+  position:absolute;
+  z-index:6;
+  left:7.2%;
+  top:63.9%;
+  width:16.6%;
+  height:6.3%;
+  min-width:155px;
+  min-height:42px;
+  border:0;
+  background:transparent;
+  cursor:pointer;
+  color:transparent;
+}
+.v92-open-btn:focus-visible{
+  outline:3px solid #d6a64f;
+  outline-offset:3px;
+  border-radius:6px;
+}
+.v92-open-nav{
+  position:absolute;
+  left:7.2%;
+  right:7.2%;
+  bottom:2.4%;
+  height:9.7%;
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:.9%;
+}
+.v92-nav-link{
+  display:block;
+  border-radius:12px;
+  position:relative;
+  cursor:pointer;
+  background:rgba(204,155,62,0);
+  box-shadow:inset 0 0 0 1px rgba(209,167,92,0);
+  transition:background .22s ease,box-shadow .22s ease,transform .22s ease,filter .22s ease;
+}
+.v92-nav-link:hover,
+.v92-nav-link:focus-visible{
+  background:rgba(206,158,70,.10);
+  box-shadow:inset 0 0 0 1px rgba(224,182,103,.55),0 10px 28px rgba(0,0,0,.25);
+  transform:translateY(-2px);
+  filter:brightness(1.12);
+  outline:none;
+}
+.v92-nav-link span{
+  position:absolute;
+  width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;
+}
+
+/* Fit the artwork to the entire browser while preserving the important center content.
+   On very wide screens, center crop. On tall/mobile screens, bias slightly upward. */
+@media (max-aspect-ratio: 4/3){
+  .v92-scene{background-position:center 38%;background-size:cover}
+  .v92-open-btn{left:6.2%;top:62.7%;width:19.5%;height:6.5%}
+  .v92-open-nav{left:3.8%;right:3.8%;bottom:1.6%;height:10.7%}
+}
+@media (max-width:700px){
+  .v92-scene{background-position:center center}
+  .v92-open-btn{left:4.5%;top:61.5%;width:31%;height:7.2%}
+  .v92-open-nav{
+    left:2.5%;right:2.5%;bottom:1.2%;
+    height:11.2%;
+    gap:.4%;
+  }
+}
+@media (prefers-reduced-motion:reduce){
+  .v92-scene,.v92-open-hotspots,#v92Vault{transition:none!important}
+}
 </style>
-<div id="v91Vault" aria-label="KAC Vault entrance">
-  <img class="v91-scene v91-closed" src="assets/vault-closed-v9.jpg" alt="KAC Vault closed steel door">
-  <img class="v91-scene v91-open" src="assets/vault-open-state-v9.jpg" alt="KAC Vault open door revealing the collection room">
-  <button class="v91-hotspot v91-open-btn" id="v91Open" type="button" aria-label="Open the Vault">Open the Vault</button>
-  <button class="v91-hotspot v91-enter-btn" id="v91Enter" type="button" aria-label="Enter the Vault">Enter the Vault</button>
+
+<div id="v92Vault" aria-label="KAC Vault cinematic entrance">
+  <div class="v92-scene v92-closed" aria-hidden="true"></div>
+  <div class="v92-scene v92-open" aria-hidden="true"></div>
+
+  <button id="v92OpenBtn" class="v92-open-btn" type="button" aria-label="Open the Vault">Open the Vault</button>
+
+  <div class="v92-open-hotspots" aria-label="Vault navigation">
+    <nav class="v92-open-nav">
+      <a class="v92-nav-link" href="collection.html"><span>The Collection</span></a>
+      <a class="v92-nav-link" href="games-memories.html"><span>Games & Memories</span></a>
+      <a class="v92-nav-link" href="#featured" data-v92-dismiss="true"><span>Featured</span></a>
+      <a class="v92-nav-link" href="inventory.html"><span>Full Inventory</span></a>
+      <a class="v92-nav-link" href="#about" data-v92-dismiss="true"><span>About</span></a>
+    </nav>
+  </div>
 </div>
+
 <script>
 (function(){
- const vault=document.getElementById('v91Vault'), open=document.getElementById('v91Open'), enter=document.getElementById('v91Enter');
- if(!vault||!open||!enter)return;
- open.addEventListener('click',()=>{vault.classList.add('v91-opening');open.disabled=true;setTimeout(()=>enter.focus(),1200);});
- enter.addEventListener('click',()=>{vault.classList.add('v91-hidden');setTimeout(()=>{vault.style.display='none';document.querySelector('.sitebar a, main a, main button')?.focus();},800);});
+  const vault=document.getElementById('v92Vault');
+  const openBtn=document.getElementById('v92OpenBtn');
+  if(!vault||!openBtn)return;
+
+  openBtn.addEventListener('click',()=>{
+    vault.classList.add('v92-opening');
+    openBtn.style.pointerEvents='none';
+    openBtn.setAttribute('aria-hidden','true');
+  });
+
+  vault.querySelectorAll('[data-v92-dismiss="true"]').forEach(link=>{
+    link.addEventListener('click',()=>{
+      vault.classList.add('v92-hide');
+      setTimeout(()=>{vault.style.display='none';},700);
+    });
+  });
 })();
 </script>
-<!-- V9.1 CINEMATIC VAULT END -->
+<!-- V9.2 CINEMATIC VAULT END -->
+
+
+
 
 <header class="sitebar"><a class="brand" href="index.html"><span>KAC</span><b>VAULT</b><small>COMICS · CARDS · COLLECTIBLES</small></a><button class="menu" aria-label="Open menu">☰</button><nav class="nav"><a href="collection.html">Collection</a><a href="games-memories.html">Games & Memories</a><a href="index.html#featured">Featured</a><a href="index.html#about">About</a><a class="pill" href="inventory.html">Full Inventory</a></nav></header>
 <main>

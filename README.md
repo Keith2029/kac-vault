@@ -72,3 +72,8 @@ The v8.5 JSON model is intentionally structured for a later migration to a datab
 - Removed known laptop / monitor placeholder images from public memory presentation
 - Preserved the v8.5 JSON inventory, search, filters, analytics, and permanent SKU architecture
 - Preserved the 2026 U.S. Open — Shinnecock Hills memory
+
+
+## v9.2 entrance refinement
+
+The photorealistic vault is now a responsive full-screen entrance. After opening, the footer navigation routes directly into the major sections of KAC Vault.
