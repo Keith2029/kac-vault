@@ -77,3 +77,8 @@ The v8.5 JSON model is intentionally structured for a later migration to a datab
 ## v9.2 entrance refinement
 
 The photorealistic vault is now a responsive full-screen entrance. After opening, the footer navigation routes directly into the major sections of KAC Vault.
+
+
+## v9.3 vault stage alignment
+
+Vault artwork and hotspots now share a fixed-aspect-ratio stage so they remain aligned on any viewport. Letterboxing is preferred over cropping.

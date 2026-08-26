@@ -1,158 +1,171 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="KAC Vault — a curated private collection of comics, graded books, trading cards and memorabilia."><title>KAC Vault — Curated Comics, Cards & Collectibles</title><link rel="stylesheet" href="css/styles.css"></head><body>
 
-<!-- V9.2 CINEMATIC VAULT START -->
+<!-- V9.3 CINEMATIC VAULT START -->
 <style>
-#v92Vault{
+#v93Vault{
   position:fixed;
   inset:0;
   z-index:2147483000;
-  background:#060606;
+  background:#050505;
   overflow:hidden;
-  transition:opacity .7s ease,visibility .7s ease;
+  display:grid;
+  place-items:center;
+  transition:opacity .6s ease,visibility .6s ease;
 }
-#v92Vault.v92-hide{opacity:0;visibility:hidden;pointer-events:none}
-.v92-scene{
+#v93Vault.v93-hide{opacity:0;visibility:hidden;pointer-events:none}
+
+.v93-stage{
+  position:relative;
+  width:min(100vw,calc(100vh * 2.49910873));
+  aspect-ratio:1402 / 561;
+  max-height:100vh;
+  background:#050505;
+  overflow:hidden;
+  box-shadow:0 0 70px rgba(0,0,0,.55);
+}
+.v93-scene{
   position:absolute;
   inset:0;
-  background-position:center center;
-  background-repeat:no-repeat;
-  background-size:cover;
-  transition:opacity .9s ease,transform 1.4s cubic-bezier(.22,.8,.22,1);
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  display:block;
+  transition:opacity .85s ease,transform 1.25s cubic-bezier(.22,.8,.22,1);
+  user-select:none;
+  -webkit-user-drag:none;
 }
-.v92-closed{
-  background-image:url("assets/vault-closed-v9.jpg");
-  opacity:1;
-}
-.v92-open{
-  background-image:url("assets/vault-open-state-v9.jpg");
-  opacity:0;
-  transform:scale(1.035);
-}
-#v92Vault.v92-opening .v92-closed{opacity:0;transform:scale(1.03)}
-#v92Vault.v92-opening .v92-open{opacity:1;transform:scale(1)}
+.v93-closed{opacity:1;transform:scale(1)}
+.v93-open{opacity:0;transform:scale(1.018)}
+#v93Vault.v93-opening .v93-closed{opacity:0;transform:scale(1.012)}
+#v93Vault.v93-opening .v93-open{opacity:1;transform:scale(1)}
 
-.v92-open-hotspots{
+.v93-hit-layer{
   position:absolute;
   inset:0;
   z-index:5;
-  opacity:0;
-  pointer-events:none;
-  transition:opacity .45s ease .55s;
 }
-#v92Vault.v92-opening .v92-open-hotspots{
-  opacity:1;
-  pointer-events:auto;
-}
-.v92-open-btn{
+.v93-open-btn{
   position:absolute;
-  z-index:6;
-  left:7.2%;
-  top:63.9%;
-  width:16.6%;
-  height:6.3%;
-  min-width:155px;
-  min-height:42px;
+  left:6.2%;
+  top:63.4%;
+  width:19.3%;
+  height:6.5%;
   border:0;
   background:transparent;
-  cursor:pointer;
   color:transparent;
+  cursor:pointer;
 }
-.v92-open-btn:focus-visible{
-  outline:3px solid #d6a64f;
-  outline-offset:3px;
+.v93-open-btn:focus-visible{
+  outline:3px solid #d5a24d;
+  outline-offset:2px;
   border-radius:6px;
 }
-.v92-open-nav{
+.v93-open-nav{
   position:absolute;
-  left:7.2%;
-  right:7.2%;
-  bottom:2.4%;
+  left:7.35%;
+  right:7.35%;
+  bottom:2.65%;
   height:9.7%;
   display:grid;
   grid-template-columns:repeat(5,1fr);
-  gap:.9%;
+  gap:.7%;
+  opacity:0;
+  pointer-events:none;
+  transition:opacity .35s ease .55s;
 }
-.v92-nav-link{
+#v93Vault.v93-opening .v93-open-nav{
+  opacity:1;
+  pointer-events:auto;
+}
+.v93-nav-link{
   display:block;
-  border-radius:12px;
+  border-radius:10px;
   position:relative;
-  cursor:pointer;
-  background:rgba(204,155,62,0);
-  box-shadow:inset 0 0 0 1px rgba(209,167,92,0);
-  transition:background .22s ease,box-shadow .22s ease,transform .22s ease,filter .22s ease;
+  background:rgba(209,164,86,0);
+  box-shadow:inset 0 0 0 1px rgba(209,164,86,0);
+  transition:background .2s ease,box-shadow .2s ease,transform .2s ease,filter .2s ease;
 }
-.v92-nav-link:hover,
-.v92-nav-link:focus-visible{
-  background:rgba(206,158,70,.10);
-  box-shadow:inset 0 0 0 1px rgba(224,182,103,.55),0 10px 28px rgba(0,0,0,.25);
+.v93-nav-link:hover,
+.v93-nav-link:focus-visible{
+  background:rgba(209,164,86,.10);
+  box-shadow:inset 0 0 0 1px rgba(226,183,101,.58),0 8px 24px rgba(0,0,0,.22);
   transform:translateY(-2px);
-  filter:brightness(1.12);
+  filter:brightness(1.1);
   outline:none;
 }
-.v92-nav-link span{
+.v93-nav-link span{
   position:absolute;
-  width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;
+  width:1px;height:1px;
+  overflow:hidden;
+  clip:rect(0,0,0,0);
+  white-space:nowrap;
 }
 
-/* Fit the artwork to the entire browser while preserving the important center content.
-   On very wide screens, center crop. On tall/mobile screens, bias slightly upward. */
-@media (max-aspect-ratio: 4/3){
-  .v92-scene{background-position:center 38%;background-size:cover}
-  .v92-open-btn{left:6.2%;top:62.7%;width:19.5%;height:6.5%}
-  .v92-open-nav{left:3.8%;right:3.8%;bottom:1.6%;height:10.7%}
+/* Letterbox intentionally rather than crop. */
+#v93Vault::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:radial-gradient(circle at center,rgba(45,34,24,.18),#050505 72%);
+  z-index:-1;
 }
+
 @media (max-width:700px){
-  .v92-scene{background-position:center center}
-  .v92-open-btn{left:4.5%;top:61.5%;width:31%;height:7.2%}
-  .v92-open-nav{
-    left:2.5%;right:2.5%;bottom:1.2%;
-    height:11.2%;
-    gap:.4%;
+  .v93-stage{
+    width:100vw;
+    max-height:none;
   }
+  .v93-open-btn{left:6%;top:63.1%;width:20%;height:6.8%}
+  .v93-open-nav{left:7%;right:7%;bottom:2.5%;height:10%}
 }
 @media (prefers-reduced-motion:reduce){
-  .v92-scene,.v92-open-hotspots,#v92Vault{transition:none!important}
+  .v93-scene,.v93-open-nav,#v93Vault{transition:none!important}
 }
 </style>
 
-<div id="v92Vault" aria-label="KAC Vault cinematic entrance">
-  <div class="v92-scene v92-closed" aria-hidden="true"></div>
-  <div class="v92-scene v92-open" aria-hidden="true"></div>
+<div id="v93Vault" aria-label="KAC Vault cinematic entrance">
+  <div class="v93-stage">
+    <img class="v93-scene v93-closed" src="assets/vault-closed-v9.jpg" alt="">
+    <img class="v93-scene v93-open" src="assets/vault-open-state-v93.jpg" alt="">
 
-  <button id="v92OpenBtn" class="v92-open-btn" type="button" aria-label="Open the Vault">Open the Vault</button>
+    <div class="v93-hit-layer">
+      <button id="v93OpenBtn" class="v93-open-btn" type="button" aria-label="Open the Vault">Open the Vault</button>
 
-  <div class="v92-open-hotspots" aria-label="Vault navigation">
-    <nav class="v92-open-nav">
-      <a class="v92-nav-link" href="collection.html"><span>The Collection</span></a>
-      <a class="v92-nav-link" href="games-memories.html"><span>Games & Memories</span></a>
-      <a class="v92-nav-link" href="#featured" data-v92-dismiss="true"><span>Featured</span></a>
-      <a class="v92-nav-link" href="inventory.html"><span>Full Inventory</span></a>
-      <a class="v92-nav-link" href="#about" data-v92-dismiss="true"><span>About</span></a>
-    </nav>
+      <nav class="v93-open-nav" aria-label="Vault navigation">
+        <a class="v93-nav-link" href="collection.html"><span>The Collection</span></a>
+        <a class="v93-nav-link" href="games-memories.html"><span>Games & Memories</span></a>
+        <a class="v93-nav-link" href="#featured" data-v93-dismiss="true"><span>Featured</span></a>
+        <a class="v93-nav-link" href="inventory.html"><span>Full Inventory</span></a>
+        <a class="v93-nav-link" href="#about" data-v93-dismiss="true"><span>About</span></a>
+      </nav>
+    </div>
   </div>
 </div>
 
 <script>
 (function(){
-  const vault=document.getElementById('v92Vault');
-  const openBtn=document.getElementById('v92OpenBtn');
+  const vault=document.getElementById('v93Vault');
+  const openBtn=document.getElementById('v93OpenBtn');
   if(!vault||!openBtn)return;
 
   openBtn.addEventListener('click',()=>{
-    vault.classList.add('v92-opening');
+    vault.classList.add('v93-opening');
     openBtn.style.pointerEvents='none';
     openBtn.setAttribute('aria-hidden','true');
   });
 
-  vault.querySelectorAll('[data-v92-dismiss="true"]').forEach(link=>{
+  vault.querySelectorAll('[data-v93-dismiss="true"]').forEach(link=>{
     link.addEventListener('click',()=>{
-      vault.classList.add('v92-hide');
-      setTimeout(()=>{vault.style.display='none';},700);
+      vault.classList.add('v93-hide');
+      setTimeout(()=>{vault.style.display='none';},600);
     });
   });
 })();
 </script>
-<!-- V9.2 CINEMATIC VAULT END -->
+<!-- V9.3 CINEMATIC VAULT END -->
+
+
+
 
 
 
