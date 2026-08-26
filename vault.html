@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Enter the Vault</title><link rel="stylesheet" href="styles.css"></head>
+<body class="vault-body"><main class="vault-entry">
+  <section class="vault-stage" aria-label="Private vault entrance">
+    <div class="vault-frame-depth" aria-hidden="true"></div>
+    <div class="vault-chamber" aria-hidden="true">
+      <div class="chamber-ring chamber-ring-1"></div>
+      <div class="chamber-ring chamber-ring-2"></div>
+      <div class="chamber-ring chamber-ring-3"></div>
+      <div class="chamber-floor"></div>
+      <div class="chamber-light"></div>
+
+    </div>
+    <div class="vault-door" id="door">
+      <div class="vault-edge" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="vault-hinges"><i></i><i></i><i></i></div>
+      <div class="vault-rim">
+        <div class="vault-face">
+          <div class="vault-bolt-tracks" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="vault-bolts"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <button class="vault-handle" id="vaultHandle" aria-label="Turn vault handle">
+            <span class="handle-ring"></span><span class="handle-hub"></span>
+            <i></i><i></i><i></i><i></i><i></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="vault-opening-glow" aria-hidden="true"></div>
+  </section>
+  <h1>Stories worth preserving.</h1><p>Comics, cards, memorabilia — and the memories behind them.</p>
+  <button id="enter">Enter the Vault</button><small class="security-note">Private preview · turn the handle or enter</small>
+</main>
+<script>
+(()=>{let busy=false; const openVault=()=>{if(busy)return;busy=true;document.body.classList.add('unlocking');setTimeout(()=>document.body.classList.add('opening'),760);setTimeout(()=>document.body.classList.add('settled'),2050);setTimeout(()=>document.body.classList.add('entering'),2700);setTimeout(()=>document.body.classList.add('handoff'),3450);setTimeout(()=>location.href='index.html',4050)};document.getElementById('enter').onclick=openVault;document.getElementById('vaultHandle').onclick=openVault;})();
+</script></body></html>
