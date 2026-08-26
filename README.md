@@ -1,52 +1,64 @@
-# KAC Vault Website V6
+# KAC Vault
 
-Adds Games & Memories and an animated vault entrance preview.
+KAC Vault is a data-driven digital collection and memory archive for comics, cards, collectibles and the experiences connected to them.
 
-Preview:
-- Open `vault.html` for the vault-door entrance.
-- Open `index.html` to go directly to the main site.
-- `games-memories.html` contains the first 26 sports-memory records.
+## Technology
 
-Note: the vault entrance is visual only. Real password protection should be added separately before treating the site as private.
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- JSON data layer
+- Git / GitHub
+- GitHub Pages deployment
 
+## v8.5 — Architecture Upgrade
 
-## Version 7
-Games & Memories cards now open full memory-story pages with game recap, result/venue/date, a personal-memory section, and an expandable photo gallery. Original Mixbook spreads remain placeholders until original photos are added.
+Version 8.5 shifts KAC Vault from a primarily static catalog toward a maintainable data-driven application.
 
+### Added
+- Canonical structured inventory at `data/inventory.json`
+- Schema versioning and permanent-SKU policy
+- Browser JavaScript fallback data for local preview
+- Full-text catalog search
+- Filters for category, publisher, status, year and value range
+- Multiple sort options
+- Live collection analytics calculated from the same inventory data
+- Publisher and condition/grading breakdowns
+- Professionalized `/css`, `/js`, and `/data` structure
+- Shared navigation behavior in `js/site.js`
+- Data-layer documentation in `data/README.md`
 
-## Version 7.1 local preview fix
-Memory detail pages now use embedded JavaScript data so they work when opened directly from Windows File Explorer (`file://`) as well as when hosted online.
+### Preserved
+- Permanent pages C-0001 through C-0040
+- Existing vault entrance
+- Games & Memories and photo galleries
+- 2026 U.S. Open at Shinnecock Hills memory
+- GitHub Pages compatibility and KACvault.com URLs
 
-## Version 7.2 checkpoint
-- Built from Version 7.1.
-- Current four-event working group preserved.
-- Original-photo galleries added from the current uploads.
-- Vault entrance upgraded with heavier steel shading, perimeter bolts, hinges and lock hardware.
+## Architecture
 
+```text
+/
+├── assets/                 # photographs and collectible images
+├── css/
+│   └── styles.css
+├── data/
+│   ├── inventory.json      # canonical inventory data
+│   ├── inventory-data.js   # local-preview fallback
+│   ├── memories.json
+│   ├── memories-data.js
+│   └── README.md
+├── js/
+│   ├── inventory.js        # search, filters, analytics, rendering
+│   └── site.js             # shared navigation behavior
+├── item-c-0001.html ... item-c-0040.html
+├── inventory.html
+├── games-memories.html
+├── memory.html
+├── vault.html
+└── index.html
+```
 
-## Version 7.5.1
-Upgraded vault entrance with dimensional steel thickness, visible locking bolts, five-spoke rotating handle, retracting hardware, and a 3D swing-open animation.
+## Next full-stack milestone
 
-
-## Version 7.6
-Added four real-photo memory galleries: Auburn vs. Duke, Mets vs. Yankees, Mets vs. Phillies, and Auburn vs. Ole Miss. Computer/screenshot images were not used in these new galleries.
-
-## Version 7.7
-- Replaced blank/placeholder Games & Memories snapshots with actual event photographs.
-- Changed memory galleries to preserve complete photos without object-fit cropping.
-- Added detailed box-score tables and game leaders to the four newly expanded memories.
-- Moved the six Citi Field photos from Mets vs. Phillies to the 2016 Mets vs. Giants NL Wild Card Game.
-- Replaced the comic-book image on the post-vault home hero with a photograph of the kids.
-
-## Version 7.8
-- Moved “One vault. Multiple collections.” to the top of the Collection page, directly under the Collection heading.
-- Removed comic-cover/showcase imagery from the Collection landing page so it functions as a clean category gateway.
-- Reordered Games & Memories cards by date, newest first.
-
-
-## v7.9 update
-- Added complete Auburn–Kentucky (3/1/25) and Knicks–Pacers (10/25/24) photo sets.
-- Added/standardized box-score panels for every Games & Memories entry.
-- Expanded game storytelling and polished both new game recaps.
-- Rebuilt Collection opening hero around a family photograph; no comic covers in the opening hero.
-- Preserved full-photo gallery behavior and added interaction/presentation refinements.
+The v8.5 JSON model is intentionally structured for a later migration to a database/API. A future application release can add authenticated administration, image uploads, create/edit inventory actions and persistence without changing the permanent SKU model.
