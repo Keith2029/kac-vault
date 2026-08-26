@@ -82,3 +82,8 @@ The photorealistic vault is now a responsive full-screen entrance. After opening
 ## v9.3 vault stage alignment
 
 Vault artwork and hotspots now share a fixed-aspect-ratio stage so they remain aligned on any viewport. Letterboxing is preferred over cropping.
+
+
+## v9.5 desktop vault fit
+
+Desktop vault entrance now uses the preferred Featured-style full-composition fit: 92% viewport width, centered, with deliberate letterboxing rather than cropping.
