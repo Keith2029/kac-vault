@@ -10,7 +10,8 @@
     "significance": "75th issue; holographic/foil cover",
     "low": 10,
     "high": 40,
-    "priority": "Low"
+    "priority": "Low",
+    "slug": "item-c-0001.html"
   },
   {
     "sku": "C-0002",
@@ -23,7 +24,8 @@
     "significance": "Part 1 of 6; foil cover; Spider-Man appearance",
     "low": 15,
     "high": 60,
-    "priority": "Low"
+    "priority": "Low",
+    "slug": "item-c-0002.html"
   },
   {
     "sku": "C-0003",
@@ -36,7 +38,8 @@
     "significance": "75th issue",
     "low": 5,
     "high": 25,
-    "priority": "Low"
+    "priority": "Low",
+    "slug": "item-c-0003.html"
   },
   {
     "sku": "C-0004",
@@ -49,7 +52,8 @@
     "significance": "Fall of the Mutants tie-in",
     "low": 5,
     "high": 25,
-    "priority": "Low"
+    "priority": "Low",
+    "slug": "item-c-0004.html"
   },
   {
     "sku": "C-0005",
@@ -62,7 +66,8 @@
     "significance": "Signed/numbered 641/3500; signature needs authentication",
     "low": 25,
     "high": 100,
-    "priority": "Medium"
+    "priority": "Medium",
+    "slug": "item-c-0005.html"
   },
   {
     "sku": "C-0006",
@@ -75,7 +80,8 @@
     "significance": "Appears signed; signature needs identification/authentication",
     "low": 25,
     "high": 150,
-    "priority": "Medium"
+    "priority": "Medium",
+    "slug": "item-c-0006.html"
   },
   {
     "sku": "C-0007",
@@ -88,7 +94,8 @@
     "significance": "Classic Claremont/Miller limited series #1",
     "low": 100,
     "high": 400,
-    "priority": "High"
+    "priority": "High",
+    "slug": "item-c-0007.html"
   },
   {
     "sku": "C-0008",
@@ -101,7 +108,8 @@
     "significance": "Iconic Todd McFarlane Wolverine/Hulk cover",
     "low": 100,
     "high": 500,
-    "priority": "High"
+    "priority": "High",
+    "slug": "item-c-0008.html"
   },
   {
     "sku": "C-0009",
@@ -114,7 +122,8 @@
     "significance": "Knightfall \u2014 Breaking of the Batman",
     "low": 15,
     "high": 50,
-    "priority": "Low"
+    "priority": "Low",
+    "slug": "item-c-0009.html"
   },
   {
     "sku": "C-0010",
@@ -127,7 +136,8 @@
     "significance": "First issue",
     "low": 30,
     "high": 100,
-    "priority": "Low"
+    "priority": "Low",
+    "slug": "item-c-0010.html"
   },
   {
     "sku": "C-0011",
@@ -140,7 +150,8 @@
     "significance": "Needs additional identification",
     "low": 0,
     "high": 0,
-    "priority": "Low"
+    "priority": "Low",
+    "slug": "item-c-0011.html"
   },
   {
     "sku": "C-0012",
@@ -153,7 +164,8 @@
     "significance": "Disney attraction-inspired; unusual packaged/premium presentation",
     "low": 10,
     "high": 50,
-    "priority": "Low"
+    "priority": "Low",
+    "slug": "item-c-0012.html"
   },
   {
     "sku": "C-0013",
@@ -166,7 +178,8 @@
     "significance": "Batman: Year Two Part 4; Todd McFarlane art",
     "low": 40,
     "high": 150,
-    "priority": "Medium"
+    "priority": "Medium",
+    "slug": "item-c-0013.html"
   },
   {
     "sku": "C-0014",
@@ -179,7 +192,8 @@
     "significance": "Bronze Age Superman/Robin issue",
     "low": 30,
     "high": 100,
-    "priority": "Low"
+    "priority": "Low",
+    "slug": "item-c-0014.html"
   },
   {
     "sku": "C-0015",
@@ -192,7 +206,8 @@
     "significance": "Direct edition",
     "low": 5,
     "high": 20,
-    "priority": "Low"
+    "priority": "Low",
+    "slug": "item-c-0015.html"
   },
   {
     "sku": "C-0016",
@@ -205,7 +220,8 @@
     "significance": "Major key; first full appearance of Venom",
     "low": 375,
     "high": 1500,
-    "priority": "Very High"
+    "priority": "Very High",
+    "slug": "item-c-0016.html"
   },
   {
     "sku": "C-0017",
@@ -218,7 +234,8 @@
     "significance": "Todd McFarlane; first copy",
     "low": 20,
     "high": 60,
-    "priority": "Low"
+    "priority": "Low",
+    "slug": "item-c-0017.html"
   },
   {
     "sku": "C-0018",
@@ -231,7 +248,8 @@
     "significance": "Second copy",
     "low": 20,
     "high": 60,
-    "priority": "Low"
+    "priority": "Low",
+    "slug": "item-c-0018.html"
   },
   {
     "sku": "C-0019",
@@ -244,7 +262,8 @@
     "significance": "Death of Norman Osborn / Green Goblin",
     "low": 150,
     "high": 700,
-    "priority": "High"
+    "priority": "High",
+    "slug": "item-c-0019.html"
   },
   {
     "sku": "C-0020",
@@ -257,7 +276,8 @@
     "significance": "First appearance/origin of Ghost Rider (Johnny Blaze)",
     "low": 1000,
     "high": 4000,
-    "priority": "Critical"
+    "priority": "Critical",
+    "slug": "item-c-0020.html"
   },
   {
     "sku": "C-0021",
@@ -270,7 +290,8 @@
     "significance": "Superman/Flash race",
     "low": 30,
     "high": 100,
-    "priority": "Low"
+    "priority": "Low",
+    "slug": "item-c-0021.html"
   },
   {
     "sku": "C-0022",
@@ -283,7 +304,8 @@
     "significance": "Frank Miller / Chris Claremont",
     "low": 40,
     "high": 100,
-    "priority": "Medium"
+    "priority": "Medium",
+    "slug": "item-c-0022.html"
   },
   {
     "sku": "C-0023",
@@ -296,7 +318,8 @@
     "significance": "Superman/Flash race",
     "low": 30,
     "high": 100,
-    "priority": "Low"
+    "priority": "Low",
+    "slug": "item-c-0023.html"
   },
   {
     "sku": "C-0024",
@@ -309,7 +332,8 @@
     "significance": "Final issue of limited series",
     "low": 40,
     "high": 100,
-    "priority": "Medium"
+    "priority": "Medium",
+    "slug": "item-c-0024.html"
   },
   {
     "sku": "C-0025",
@@ -322,7 +346,8 @@
     "significance": "First full Wolverine; Marvel Value Stamp cut out",
     "low": 1000,
     "high": 2500,
-    "priority": "Critical"
+    "priority": "Critical",
+    "slug": "item-c-0025.html"
   },
   {
     "sku": "C-0026",
@@ -335,7 +360,8 @@
     "significance": "First appearance of Punisher",
     "low": 1200,
     "high": 2600,
-    "priority": "Critical"
+    "priority": "Critical",
+    "slug": "item-c-0026.html"
   },
   {
     "sku": "C-0027",
@@ -348,7 +374,8 @@
     "significance": "Iconic Todd McFarlane Wolverine/Hulk cover",
     "low": 100,
     "high": 500,
-    "priority": "High"
+    "priority": "High",
+    "slug": "item-c-0027.html"
   },
   {
     "sku": "C-0028",
@@ -361,7 +388,8 @@
     "significance": "First appearance of Green Goblin",
     "low": 2000,
     "high": 3000,
-    "priority": "Critical"
+    "priority": "Critical",
+    "slug": "item-c-0028.html"
   },
   {
     "sku": "C-0029",
@@ -374,7 +402,8 @@
     "significance": "Classic Claremont/Miller limited series #1",
     "low": 100,
     "high": 400,
-    "priority": "High"
+    "priority": "High",
+    "slug": "item-c-0029.html"
   },
   {
     "sku": "C-0030",
@@ -387,7 +416,8 @@
     "significance": "Early Spawn",
     "low": 10,
     "high": 25,
-    "priority": "Low"
+    "priority": "Low",
+    "slug": "item-c-0030.html"
   },
   {
     "sku": "C-0031",
@@ -400,7 +430,8 @@
     "significance": "Part of classic Miller/Claremont run",
     "low": 50,
     "high": 150,
-    "priority": "Medium"
+    "priority": "Medium",
+    "slug": "item-c-0031.html"
   },
   {
     "sku": "C-0032",
@@ -413,7 +444,8 @@
     "significance": "Collectible memorial set; fairly common",
     "low": 20,
     "high": 50,
-    "priority": "Low"
+    "priority": "Low",
+    "slug": "item-c-0032.html"
   },
   {
     "sku": "C-0033",
@@ -426,7 +458,8 @@
     "significance": "Minor collectible",
     "low": 5,
     "high": 20,
-    "priority": "Low"
+    "priority": "Low",
+    "slug": "item-c-0033.html"
   },
   {
     "sku": "C-0034",
@@ -439,7 +472,8 @@
     "significance": "Early Spawn",
     "low": 10,
     "high": 30,
-    "priority": "Low"
+    "priority": "Low",
+    "slug": "item-c-0034.html"
   },
   {
     "sku": "C-0035",
@@ -452,7 +486,8 @@
     "significance": "Early Spawn",
     "low": 10,
     "high": 30,
-    "priority": "Low"
+    "priority": "Low",
+    "slug": "item-c-0035.html"
   },
   {
     "sku": "C-0036",
