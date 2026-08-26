@@ -1,5 +1,70 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="KAC Vault — a curated private collection of comics, graded books, trading cards and memorabilia."><title>KAC Vault — Curated Comics, Cards & Collectibles</title><link rel="stylesheet" href="css/styles.css"></head><body>
 
+<!-- V87 VAULT START -->
+<style>
+#v87-vault{
+  position:fixed; inset:0; z-index:2147483000; display:grid; place-items:center;
+  background:radial-gradient(circle at 50% 45%,#252a30 0,#101317 42%,#050607 100%);
+  overflow:hidden; transition:opacity .8s ease, visibility .8s ease;
+}
+#v87-vault.v87-gone{opacity:0;visibility:hidden;pointer-events:none}
+.v87-frame{
+  width:min(82vw,720px); aspect-ratio:1/1; border-radius:50%;
+  display:grid; place-items:center; position:relative;
+  background:linear-gradient(145deg,#6e7378,#202428 28%,#0c0e10 62%,#4b5055);
+  box-shadow:0 0 0 18px #090b0d,0 0 0 24px #585d61,0 30px 80px #000;
+}
+.v87-door{
+  width:84%;height:84%;border-radius:50%;position:relative;display:grid;place-items:center;
+  background:radial-gradient(circle,#3d4348 0 16%,#1a1e22 17% 44%,#555b60 45% 47%,#171a1d 48% 100%);
+  border:8px solid #777d82; transform-origin:8% 50%;
+  transition:transform 1.8s cubic-bezier(.65,.05,.36,1),filter .5s ease;
+  box-shadow:inset 0 0 40px #000,0 0 0 6px #111;
+}
+.v87-door:before,.v87-door:after{
+  content:"";position:absolute;left:50%;top:50%;background:#8b9195;transform:translate(-50%,-50%);
+  box-shadow:0 2px 8px #000
+}
+.v87-door:before{width:58%;height:18px}
+.v87-door:after{width:18px;height:58%}
+.v87-wheel{
+  width:31%;aspect-ratio:1;border:13px solid #9da2a5;border-radius:50%;position:relative;z-index:2;
+  box-shadow:inset 0 0 15px #000,0 3px 8px #000
+}
+.v87-wheel:before{content:"";position:absolute;inset:36%;border-radius:50%;background:#c6a560;box-shadow:0 0 0 8px #25292d}
+.v87-copy{position:absolute;z-index:4;bottom:7%;left:0;right:0;text-align:center;color:#f4efe5;font-family:Georgia,serif}
+.v87-copy small{display:block;letter-spacing:.32em;font-family:Arial,sans-serif;font-weight:700;color:#c8a560;margin-bottom:8px}
+.v87-copy strong{font-size:clamp(28px,4vw,48px);font-weight:500}
+.v87-enter{
+  position:absolute;z-index:5;bottom:2.4%;left:50%;transform:translateX(-50%);
+  border:1px solid #c8a560;background:#111820;color:#f7f1e7;border-radius:999px;
+  padding:12px 22px;font-weight:800;letter-spacing:.08em;cursor:pointer
+}
+#v87-vault.v87-opening .v87-door{transform:perspective(1200px) rotateY(-112deg);filter:brightness(.72)}
+#v87-vault.v87-opening .v87-copy,#v87-vault.v87-opening .v87-enter{opacity:0;transition:opacity .35s}
+@media(max-width:650px){.v87-frame{width:92vw}.v87-copy{bottom:10%}.v87-enter{bottom:3%}}
+</style>
+<div id="v87-vault" aria-label="KAC Vault entrance">
+  <div class="v87-frame">
+    <div class="v87-door"><div class="v87-wheel"></div></div>
+    <div class="v87-copy"><small>KAC VAULT</small><strong>Stories worth preserving.</strong></div>
+    <button class="v87-enter" id="v87-enter" type="button">OPEN THE VAULT</button>
+  </div>
+</div>
+<script>
+(function(){
+  var vault=document.getElementById('v87-vault');
+  var btn=document.getElementById('v87-enter');
+  if(!vault||!btn)return;
+  btn.addEventListener('click',function(){
+    vault.classList.add('v87-opening');
+    setTimeout(function(){vault.classList.add('v87-gone');},1450);
+  });
+})();
+</script>
+<!-- V87 VAULT END -->
+
+
 <div id="v86Vault" class="v86-vault" aria-label="KAC Vault entrance">
   <div class="v86-chamber" aria-hidden="true"></div>
   <div class="v86-door-wrap" aria-hidden="true">
@@ -27,7 +92,7 @@
     <div class="trust-row"><span>40 cataloged items</span><span>5 CGC graded</span><span>Actual-item photography</span></div>
   </div>
   <div class="hero-showcase-v3 family-hero">
-    <div class="hero-frame family-frame"><a href="games-memories.html"><img src="assets/memories/2026-opening-family.jpeg" alt="Family at Auburn University"></a></div>
+    <div class="hero-frame family-frame"><a href="games-memories.html"><img src="assets/memories/vault-family-opening-v87.jpg" alt="Family at Auburn University"></a></div>
     <div class="hero-caption-v3"><span>WELCOME TO THE VAULT</span><strong>The memories behind the collection</strong><small>Family · games · trips · traditions</small></div>
   </div>
 </section>

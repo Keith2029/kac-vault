@@ -11,7 +11,7 @@ KAC Vault is a data-driven digital collection and memory archive for comics, car
 - Git / GitHub
 - GitHub Pages deployment
 
-## v8.6 — Stabilization & Experience
+## v8.7 — Stabilization & Experience
 
 Version 8.5 shifts KAC Vault from a primarily static catalog toward a maintainable data-driven application.
 
@@ -64,7 +64,7 @@ Version 8.5 shifts KAC Vault from a primarily static catalog toward a maintainab
 The v8.5 JSON model is intentionally structured for a later migration to a database/API. A future application release can add authenticated administration, image uploads, create/edit inventory actions and persistence without changing the permanent SKU model.
 
 
-## v8.6 stabilization changes
+## v8.7 stabilization changes
 
 - Restored the vault as the first experience directly on `index.html`
 - Vault now opens as an entrance overlay rather than relying on a fragile gateway redirect
