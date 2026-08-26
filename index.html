@@ -1,39 +1,37 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="KAC Vault — a curated private collection of comics, graded books, trading cards and memorabilia."><title>KAC Vault — Curated Comics, Cards & Collectibles</title><link rel="stylesheet" href="css/styles.css"></head><body>
 
-<!-- V9 CINEMATIC VAULT START -->
+<!-- V9.1 CINEMATIC VAULT START -->
 <style>
-#v9Vault{position:fixed;inset:0;z-index:2147483000;background:#050505;overflow:hidden;transition:opacity .8s ease,visibility .8s ease}
-#v9Vault.v9-hidden{opacity:0;visibility:hidden;pointer-events:none}
-.v9-scene{position:absolute;inset:0;background:#050505 center/cover no-repeat;transition:opacity .7s ease,transform 1.8s cubic-bezier(.2,.75,.2,1)}
-.v9-closed{background-image:linear-gradient(90deg,rgba(0,0,0,.08),rgba(0,0,0,.02)),url('assets/vault-closed-v9.jpg');opacity:1}
-.v9-open{background-image:linear-gradient(90deg,rgba(0,0,0,.04),rgba(0,0,0,.01)),url('assets/vault-open-state-v9.jpg');opacity:0;transform:scale(1.025)}
-#v9Vault.v9-opening .v9-closed{opacity:0;transform:scale(1.035)}
-#v9Vault.v9-opening .v9-open{opacity:1;transform:scale(1)}
-.v9-controls{position:absolute;z-index:4;left:6.5%;bottom:18%;transition:opacity .35s ease,transform .5s ease}
-.v9-kicker{color:#c79b4b;font:700 12px/1 Arial,sans-serif;letter-spacing:.28em;margin-bottom:12px}
-.v9-controls h1{margin:0 0 18px;color:#e6c78c;font:500 clamp(30px,4vw,58px)/1.02 Georgia,serif;max-width:520px;text-shadow:0 3px 20px #000}
-.v9-enter{border:1px solid #d2a657;background:linear-gradient(#c89b4e,#9f722d);color:white;padding:14px 30px;border-radius:4px;font:800 13px Arial,sans-serif;letter-spacing:.14em;cursor:pointer;box-shadow:0 8px 30px #0008}
-#v9Vault.v9-opening .v9-controls{opacity:0;transform:translateY(12px);pointer-events:none}
-.v9-enter2{position:absolute;z-index:5;right:7%;bottom:16%;opacity:0;pointer-events:none;transition:opacity .45s ease 1.1s;border:1px solid #d2a657;background:linear-gradient(#c89b4e,#9f722d);color:#fff;padding:14px 30px;border-radius:4px;font:800 13px Arial,sans-serif;letter-spacing:.14em;cursor:pointer}
-#v9Vault.v9-opening .v9-enter2{opacity:1;pointer-events:auto}
-@media(max-width:760px){.v9-scene{background-size:cover;background-position:center}.v9-controls{left:6%;right:6%;bottom:10%}.v9-controls h1{font-size:34px;max-width:360px}.v9-enter2{right:6%;bottom:7%}}
-@media(prefers-reduced-motion:reduce){.v9-scene,#v9Vault,.v9-controls,.v9-enter2{transition-duration:.01ms!important}}
+#v91Vault{position:fixed;inset:0;z-index:2147483000;background:#050505;overflow:hidden;transition:opacity .75s ease,visibility .75s ease}
+#v91Vault.v91-hidden{opacity:0;visibility:hidden;pointer-events:none}
+.v91-scene{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;transition:opacity .85s ease,transform 1.65s cubic-bezier(.2,.75,.2,1);user-select:none;-webkit-user-drag:none}
+.v91-closed{opacity:1}.v91-open{opacity:0;transform:scale(1.018)}
+#v91Vault.v91-opening .v91-closed{opacity:0;transform:scale(1.025)}
+#v91Vault.v91-opening .v91-open{opacity:1;transform:scale(1)}
+.v91-hotspot{position:absolute;z-index:5;border:0;background:transparent;cursor:pointer;color:transparent;font-size:0}
+.v91-open-btn{left:6.8%;top:64%;width:18%;height:9%}
+.v91-enter-btn{right:6.2%;top:63%;width:18%;height:10%;opacity:0;pointer-events:none;transition:opacity .2s linear 1s}
+#v91Vault.v91-opening .v91-open-btn{pointer-events:none}
+#v91Vault.v91-opening .v91-enter-btn{opacity:1;pointer-events:auto}
+.v91-hotspot:focus-visible{outline:3px solid #d2a657;outline-offset:3px;border-radius:6px}
+@media(max-aspect-ratio:4/3){.v91-scene{object-fit:contain;background:#050505}.v91-open-btn{left:5%;top:63%;width:27%;height:10%}.v91-enter-btn{right:5%;top:62%;width:27%;height:11%}}
+@media(prefers-reduced-motion:reduce){#v91Vault,.v91-scene,.v91-enter-btn{transition-duration:.01ms!important}}
 </style>
-<div id="v9Vault" aria-label="KAC Vault entrance">
-  <div class="v9-scene v9-closed" aria-hidden="true"></div>
-  <div class="v9-scene v9-open" aria-hidden="true"></div>
-  <div class="v9-controls"><div class="v9-kicker">THE KAC COLLECTION</div><h1>Some collections are worth more than they'll ever know.</h1><button class="v9-enter" id="v9Open" type="button">OPEN THE VAULT →</button></div>
-  <button class="v9-enter2" id="v9Enter" type="button">ENTER THE VAULT →</button>
+<div id="v91Vault" aria-label="KAC Vault entrance">
+  <img class="v91-scene v91-closed" src="assets/vault-closed-v9.jpg" alt="KAC Vault closed steel door">
+  <img class="v91-scene v91-open" src="assets/vault-open-state-v9.jpg" alt="KAC Vault open door revealing the collection room">
+  <button class="v91-hotspot v91-open-btn" id="v91Open" type="button" aria-label="Open the Vault">Open the Vault</button>
+  <button class="v91-hotspot v91-enter-btn" id="v91Enter" type="button" aria-label="Enter the Vault">Enter the Vault</button>
 </div>
 <script>
 (function(){
- const vault=document.getElementById('v9Vault'), open=document.getElementById('v9Open'), enter=document.getElementById('v9Enter');
+ const vault=document.getElementById('v91Vault'), open=document.getElementById('v91Open'), enter=document.getElementById('v91Enter');
  if(!vault||!open||!enter)return;
- open.addEventListener('click',()=>{vault.classList.add('v9-opening');open.disabled=true;});
- enter.addEventListener('click',()=>{vault.classList.add('v9-hidden');setTimeout(()=>{vault.style.display='none'},850);});
+ open.addEventListener('click',()=>{vault.classList.add('v91-opening');open.disabled=true;setTimeout(()=>enter.focus(),1200);});
+ enter.addEventListener('click',()=>{vault.classList.add('v91-hidden');setTimeout(()=>{vault.style.display='none';document.querySelector('.sitebar a, main a, main button')?.focus();},800);});
 })();
 </script>
-<!-- V9 CINEMATIC VAULT END -->
+<!-- V9.1 CINEMATIC VAULT END -->
 
 <header class="sitebar"><a class="brand" href="index.html"><span>KAC</span><b>VAULT</b><small>COMICS · CARDS · COLLECTIBLES</small></a><button class="menu" aria-label="Open menu">☰</button><nav class="nav"><a href="collection.html">Collection</a><a href="games-memories.html">Games & Memories</a><a href="index.html#featured">Featured</a><a href="index.html#about">About</a><a class="pill" href="inventory.html">Full Inventory</a></nav></header>
 <main>
