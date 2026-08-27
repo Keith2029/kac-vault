@@ -87,3 +87,7 @@ Vault artwork and hotspots now share a fixed-aspect-ratio stage so they remain a
 ## v9.5 desktop vault fit
 
 Desktop vault entrance now uses the preferred Featured-style full-composition fit: 92% viewport width, centered, with deliberate letterboxing rather than cropping.
+
+
+## v10
+Cleaned up the February 16, 2015 Rangers–Islanders memory: restored its full photo gallery, removed the blank image state and first-game wording, while preserving the v9.9 baseline.
