@@ -312,15 +312,26 @@
   {
     "date": "2023-09-16",
     "title": "Ole Miss vs. Georgia Tech",
-    "subtitle": "Oxford Weekend",
+    "subtitle": "Oxford, The Grove & a Rebel Win",
     "sport": "Football",
     "venue": "Vaught-Hemingway Stadium",
     "result": "Ole Miss 48, Georgia Tech 23",
-    "image": "",
+    "image": "assets/memories/galleries/2023-olemiss-georgiatech-01.jpeg",
     "id": "2023-olemiss-georgiatech",
     "recap": "Ole Miss led 24–10 after three quarters, but Georgia Tech made it a one-score game early in the fourth. That challenge triggered an explosive finish: the Rebels poured in 24 fourth-quarter points and pulled away for a 48–23 win in Oxford. Jaxson Dart hurt Georgia Tech with both his arm and his legs, and his 68-yard touchdown pass to Jordan Watkins helped break the game open late.",
-    "personalNote": "This memory is preserved from the family photo book. The original photographs can be added here later so the page becomes a fuller record of the day — not just the score, but the people, place and experience around the game.",
-    "gallery": [],
+    "personalNote": "A full Ole Miss game-day weekend preserved from Oxford — walking through the Walk of Champions, taking in The Grove and the Square, spending time together at the tailgate, and then heading into Vaught-Hemingway for the game. The photographs capture the entire experience around the 48–23 win over Georgia Tech, from the family moments before kickoff to the stadium at night.",
+    "gallery": [
+      "assets/memories/galleries/2023-olemiss-georgiatech-01.jpeg",
+      "assets/memories/galleries/2023-olemiss-georgiatech-02.jpeg",
+      "assets/memories/galleries/2023-olemiss-georgiatech-03.jpeg",
+      "assets/memories/galleries/2023-olemiss-georgiatech-04.jpeg",
+      "assets/memories/galleries/2023-olemiss-georgiatech-05.jpeg",
+      "assets/memories/galleries/2023-olemiss-georgiatech-06.jpeg",
+      "assets/memories/galleries/2023-olemiss-georgiatech-07.jpeg",
+      "assets/memories/galleries/2023-olemiss-georgiatech-08.jpeg",
+      "assets/memories/galleries/2023-olemiss-georgiatech-09.jpeg",
+      "assets/memories/galleries/2023-olemiss-georgiatech-10.jpeg"
+    ],
     "boxScore": [
       [
         "Team",
