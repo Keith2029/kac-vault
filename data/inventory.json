@@ -326,6 +326,10 @@
         "high": 1500,
         "currency": "USD",
         "type": "working_catalog_range"
+      },
+      "photos": {
+        "front": "assets/c-0016-front-v11.jpg",
+        "back": "assets/c-0016-back-v11.jpg"
       }
     },
     {
@@ -386,6 +390,10 @@
         "high": 700,
         "currency": "USD",
         "type": "working_catalog_range"
+      },
+      "photos": {
+        "front": "assets/c-0019-front-v11.jpg",
+        "back": "assets/c-0019-back-v11.jpg"
       }
     },
     {
@@ -406,6 +414,10 @@
         "high": 4000,
         "currency": "USD",
         "type": "working_catalog_range"
+      },
+      "photos": {
+        "front": "assets/c-0020-front-v11.jpg",
+        "back": "assets/c-0020-back-v11.jpg"
       }
     },
     {
@@ -506,6 +518,10 @@
         "high": 2500,
         "currency": "USD",
         "type": "working_catalog_range"
+      },
+      "photos": {
+        "front": "assets/c-0025-front-v11.jpg",
+        "back": "assets/c-0025-back-v11.jpg"
       }
     },
     {
@@ -526,6 +542,10 @@
         "high": 2600,
         "currency": "USD",
         "type": "working_catalog_range"
+      },
+      "photos": {
+        "front": "assets/c-0026-front-v11.jpg",
+        "back": "assets/c-0026-back-v11.jpg"
       }
     },
     {
@@ -546,6 +566,10 @@
         "high": 500,
         "currency": "USD",
         "type": "working_catalog_range"
+      },
+      "photos": {
+        "front": "assets/c-0027-front-v11.jpg",
+        "back": "assets/c-0027-back-v11.jpg"
       }
     },
     {
@@ -566,6 +590,10 @@
         "high": 3000,
         "currency": "USD",
         "type": "working_catalog_range"
+      },
+      "photos": {
+        "front": "assets/c-0028-front-v11.jpg",
+        "back": "assets/c-0028-back-v11.jpg"
       }
     },
     {
@@ -586,6 +614,10 @@
         "high": 400,
         "currency": "USD",
         "type": "working_catalog_range"
+      },
+      "photos": {
+        "front": "assets/c-0029-front-v11.jpg",
+        "back": "assets/c-0029-back-v11.jpg"
       }
     },
     {
