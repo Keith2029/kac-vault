@@ -1,1 +1,1851 @@
-window.KAC_INVENTORY_DATA = {"schemaVersion":"1.0","siteVersion":"11.5","collection":"KAC Vault","canonicalDomain":"https://kacvault.com","notes":{"skuPolicy":"SKU is permanent and should never be reassigned.","valuation":"Working catalog references, not formal appraisals."},"items":[{"sku":"C-0001","title":"Silver Surfer","issue":"#75","year":1992,"publisher":"Marvel","status":"Raw","grade":"","significance":"75th issue; holographic/foil cover","priority":"Low","slug":"item-c-0001.html","category":"Comics","recordUrl":"item-c-0001.html","valuation":{"low":10,"high":40,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0002","title":"Venom: Lethal Protector","issue":"#1","year":1993,"publisher":"Marvel","status":"Raw","grade":"","significance":"Part 1 of 6; foil cover; Spider-Man appearance","priority":"Low","slug":"item-c-0002.html","category":"Comics","recordUrl":"item-c-0002.html","valuation":{"low":15,"high":60,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0003","title":"The Punisher","issue":"#75","year":1993,"publisher":"Marvel","status":"Raw","grade":"","significance":"75th issue","priority":"Low","slug":"item-c-0003.html","category":"Comics","recordUrl":"item-c-0003.html","valuation":{"low":5,"high":25,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0004","title":"Daredevil","issue":"#252","year":1988,"publisher":"Marvel","status":"Raw","grade":"","significance":"Fall of the Mutants tie-in","priority":"Low","slug":"item-c-0004.html","category":"Comics","recordUrl":"item-c-0004.html","valuation":{"low":5,"high":25,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0005","title":"Batman Begins","issue":"Movie Adaptation","year":"","publisher":"DC","status":"Raw / Signed","grade":"","significance":"Signed/numbered 641/3500; signature needs authentication","priority":"Medium","slug":"item-c-0005.html","category":"Comics","recordUrl":"item-c-0005.html","valuation":{"low":25,"high":100,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0006","title":"The Walking Dead","issue":"#1 10th Anniversary Edition","year":"","publisher":"Image","status":"Raw / Signed","grade":"","significance":"Appears signed; signature needs identification/authentication","priority":"Medium","slug":"item-c-0006.html","category":"Comics","recordUrl":"item-c-0006.html","valuation":{"low":25,"high":150,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0007","title":"Wolverine Limited Series","issue":"#1","year":1982,"publisher":"Marvel","status":"Raw","grade":"","significance":"Classic Claremont/Miller limited series #1","priority":"High","slug":"item-c-0007.html","category":"Comics","recordUrl":"item-c-0007.html","valuation":{"low":100,"high":400,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0008","title":"The Incredible Hulk","issue":"#340","year":1988,"publisher":"Marvel","status":"Raw","grade":"","significance":"Iconic Todd McFarlane Wolverine/Hulk cover","priority":"High","slug":"item-c-0008.html","category":"Comics","recordUrl":"item-c-0008.html","valuation":{"low":100,"high":500,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0009","title":"Batman","issue":"#497","year":1993,"publisher":"DC","status":"Raw","grade":"","significance":"Knightfall \u2014 Breaking of the Batman","priority":"Low","slug":"item-c-0009.html","category":"Comics","recordUrl":"item-c-0009.html","valuation":{"low":15,"high":50,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0010","title":"Simpsons Comics","issue":"#1","year":1993,"publisher":"Bongo","status":"Raw","grade":"","significance":"First issue","priority":"Low","slug":"item-c-0010.html","category":"Comics","recordUrl":"item-c-0010.html","valuation":{"low":30,"high":100,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0011","title":"Superman-related black/red cover","issue":"Unknown","year":"","publisher":"DC","status":"Raw","grade":"","significance":"Needs additional identification","priority":"Low","slug":"item-c-0011.html","category":"Comics","recordUrl":"item-c-0011.html","valuation":{"low":0,"high":0,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0012","title":"Haunted Mansion","issue":"#1","year":"","publisher":"","status":"Raw","grade":"","significance":"Disney attraction-inspired; unusual packaged/premium presentation","priority":"Low","slug":"item-c-0012.html","category":"Comics","recordUrl":"item-c-0012.html","valuation":{"low":10,"high":50,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0013","title":"Detective Comics","issue":"#578","year":1987,"publisher":"DC","status":"Raw","grade":"","significance":"Batman: Year Two Part 4; Todd McFarlane art","priority":"Medium","slug":"item-c-0013.html","category":"Comics","recordUrl":"item-c-0013.html","valuation":{"low":40,"high":150,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0014","title":"World's Finest Comics","issue":"#200","year":1971,"publisher":"DC","status":"Raw","grade":"","significance":"Bronze Age Superman/Robin issue","priority":"Low","slug":"item-c-0014.html","category":"Comics","recordUrl":"item-c-0014.html","valuation":{"low":30,"high":100,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0015","title":"Disney's Aladdin","issue":"#2","year":"","publisher":"Marvel","status":"Raw","grade":"","significance":"Direct edition","priority":"Low","slug":"item-c-0015.html","category":"Comics","recordUrl":"item-c-0015.html","valuation":{"low":5,"high":20,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0016","title":"Amazing Spider-Man","issue":"#300","year":1988,"publisher":"Marvel","status":"Raw","grade":"","significance":"Major key; first full appearance of Venom","priority":"Very High","slug":"item-c-0016.html","category":"Comics","recordUrl":"item-c-0016.html","valuation":{"low":375,"high":1500,"currency":"USD","type":"working_catalog_range"},"photos":{"front":"assets/c-0016-front-v11.jpg","back":"assets/c-0016-back-v11.jpg"}},{"sku":"C-0017","title":"Spawn","issue":"#1","year":1992,"publisher":"Image","status":"Raw","grade":"","significance":"Todd McFarlane; first copy","priority":"Low","slug":"item-c-0017.html","category":"Comics","recordUrl":"item-c-0017.html","valuation":{"low":20,"high":60,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0018","title":"Spawn","issue":"#1","year":1992,"publisher":"Image","status":"Raw","grade":"","significance":"Second copy","priority":"Low","slug":"item-c-0018.html","category":"Comics","recordUrl":"item-c-0018.html","valuation":{"low":20,"high":60,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0019","title":"Amazing Spider-Man","issue":"#122","year":1973,"publisher":"Marvel","status":"Raw","grade":"","significance":"Death of Norman Osborn / Green Goblin","priority":"High","slug":"item-c-0019.html","category":"Comics","recordUrl":"item-c-0019.html","valuation":{"low":150,"high":700,"currency":"USD","type":"working_catalog_range"},"photos":{"front":"assets/c-0019-front-v11.jpg","back":"assets/c-0019-back-v11.jpg"}},{"sku":"C-0020","title":"Marvel Spotlight","issue":"#5","year":1972,"publisher":"Marvel","status":"Raw","grade":"","significance":"First appearance/origin of Ghost Rider (Johnny Blaze)","priority":"Critical","slug":"item-c-0020.html","category":"Comics","recordUrl":"item-c-0020.html","valuation":{"low":1000,"high":4000,"currency":"USD","type":"working_catalog_range"},"photos":{"front":"assets/c-0020-front-v11.jpg","back":"assets/c-0020-back-v11.jpg"}},{"sku":"C-0021","title":"World's Finest","issue":"#199","year":1970,"publisher":"DC","status":"Raw","grade":"","significance":"Superman/Flash race","priority":"Low","slug":"item-c-0021.html","category":"Comics","recordUrl":"item-c-0021.html","valuation":{"low":30,"high":100,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0022","title":"Wolverine Limited Series","issue":"#3","year":1982,"publisher":"Marvel","status":"Raw","grade":"","significance":"Frank Miller / Chris Claremont","priority":"Medium","slug":"item-c-0022.html","category":"Comics","recordUrl":"item-c-0022.html","valuation":{"low":40,"high":100,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0023","title":"World's Finest","issue":"#198","year":1970,"publisher":"DC","status":"Raw","grade":"","significance":"Superman/Flash race","priority":"Low","slug":"item-c-0023.html","category":"Comics","recordUrl":"item-c-0023.html","valuation":{"low":30,"high":100,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0024","title":"Wolverine Limited Series","issue":"#4","year":1982,"publisher":"Marvel","status":"Raw","grade":"","significance":"Final issue of limited series","priority":"Medium","slug":"item-c-0024.html","category":"Comics","recordUrl":"item-c-0024.html","valuation":{"low":40,"high":100,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0025","title":"Incredible Hulk","issue":"#181","year":1974,"publisher":"Marvel","status":"Raw / Incomplete","grade":"","significance":"First full Wolverine; Marvel Value Stamp cut out","priority":"Critical","slug":"item-c-0025.html","category":"Comics","recordUrl":"item-c-0025.html","valuation":{"low":1000,"high":2500,"currency":"USD","type":"working_catalog_range"},"photos":{"front":"assets/c-0025-front-v11.jpg","back":"assets/c-0025-back-v11.jpg"}},{"sku":"C-0026","title":"Amazing Spider-Man","issue":"#129","year":1974,"publisher":"Marvel","status":"Raw","grade":"","significance":"First appearance of Punisher","priority":"Critical","slug":"item-c-0026.html","category":"Comics","recordUrl":"item-c-0026.html","valuation":{"low":1200,"high":2600,"currency":"USD","type":"working_catalog_range"},"photos":{"front":"assets/c-0026-front-v11.jpg","back":"assets/c-0026-back-v11.jpg"}},{"sku":"C-0027","title":"Incredible Hulk","issue":"#340","year":1988,"publisher":"Marvel","status":"Raw","grade":"","significance":"Iconic Todd McFarlane Wolverine/Hulk cover","priority":"High","slug":"item-c-0027.html","category":"Comics","recordUrl":"item-c-0027.html","valuation":{"low":100,"high":500,"currency":"USD","type":"working_catalog_range"},"photos":{"front":"assets/c-0027-front-v11.jpg","back":"assets/c-0027-back-v11.jpg"}},{"sku":"C-0028","title":"Amazing Spider-Man","issue":"#14","year":1964,"publisher":"Marvel","status":"Raw","grade":"","significance":"First appearance of Green Goblin","priority":"Critical","slug":"item-c-0028.html","category":"Comics","recordUrl":"item-c-0028.html","valuation":{"low":2000,"high":3000,"currency":"USD","type":"working_catalog_range"},"photos":{"front":"assets/c-0028-front-v11.jpg","back":"assets/c-0028-back-v11.jpg"}},{"sku":"C-0029","title":"Wolverine Limited Series","issue":"#1","year":1982,"publisher":"Marvel","status":"Raw","grade":"","significance":"Classic Claremont/Miller limited series #1","priority":"High","slug":"item-c-0029.html","category":"Comics","recordUrl":"item-c-0029.html","valuation":{"low":100,"high":400,"currency":"USD","type":"working_catalog_range"},"photos":{"front":"assets/c-0029-front-v11.jpg","back":"assets/c-0029-back-v11.jpg"}},{"sku":"C-0030","title":"Spawn","issue":"#6","year":1992,"publisher":"Image","status":"Raw","grade":"","significance":"Early Spawn","priority":"Low","slug":"item-c-0030.html","category":"Comics","recordUrl":"item-c-0030.html","valuation":{"low":10,"high":25,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0031","title":"Wolverine Limited Series","issue":"#2","year":1982,"publisher":"Marvel","status":"Raw","grade":"","significance":"Part of classic Miller/Claremont run","priority":"Medium","slug":"item-c-0031.html","category":"Comics","recordUrl":"item-c-0031.html","valuation":{"low":50,"high":150,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0032","title":"Superman Memorial Set","issue":"Superman #75 package","year":"","publisher":"DC","status":"Packaged","grade":"","significance":"Collectible memorial set; fairly common","priority":"Low","slug":"item-c-0032.html","category":"Comics","recordUrl":"item-c-0032.html","valuation":{"low":20,"high":50,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0033","title":"Disney's Aladdin","issue":"#1 Direct Edition","year":"","publisher":"Marvel","status":"Raw","grade":"","significance":"Minor collectible","priority":"Low","slug":"item-c-0033.html","category":"Comics","recordUrl":"item-c-0033.html","valuation":{"low":5,"high":20,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0034","title":"Spawn","issue":"#5","year":1992,"publisher":"Image","status":"Raw","grade":"","significance":"Early Spawn","priority":"Low","slug":"item-c-0034.html","category":"Comics","recordUrl":"item-c-0034.html","valuation":{"low":10,"high":30,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0035","title":"Spawn","issue":"#4","year":1992,"publisher":"Image","status":"Raw","grade":"","significance":"Early Spawn","priority":"Low","slug":"item-c-0035.html","category":"Comics","recordUrl":"item-c-0035.html","valuation":{"low":10,"high":30,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0036","title":"Wolverine Limited Series","issue":"#1","year":1982,"publisher":"Marvel","status":"Graded","grade":"CGC 9.6","significance":"1st solo Wolverine comic; Yukio cameo on last page","priority":"Done","cert":"0944526027","pages":"Off-White to White","photos":{"front":"assets/c-0036-front-v2.jpg","label":"assets/c-0036-label-v2.jpg","back":"assets/c-0036-back-v2.jpg"},"note":"First solo Wolverine comic; Yukio cameo on last page","creators":"Chris Claremont story \u00b7 Frank Miller & Joe Rubinstein cover/art","slug":"item-c-0036.html","category":"Comics","recordUrl":"item-c-0036.html","valuation":{"low":400,"high":700,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0037","title":"Iron Fist","issue":"#1","year":1975,"publisher":"Marvel","status":"Graded","grade":"CGC 9.2","significance":"Strong Bronze Age #1","priority":"Done","cert":"","pages":"White Pages","note":"First issue of the Iron Fist solo series; Iron Fist battles Iron Man","creators":"John Byrne & Al McWilliams art","photos":{"front":"assets/c-0037-front-v2.jpg","label":"assets/c-0037-label-v2.jpg","back":"assets/c-0037-back-v2.jpg"},"slug":"item-c-0037.html","category":"Comics","recordUrl":"item-c-0037.html","valuation":{"low":250,"high":500,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0038","title":"Wolverine","issue":"#1 (1988)","year":1988,"publisher":"Marvel","status":"Graded","grade":"CGC 9.8","significance":"First issue of ongoing Wolverine series","priority":"Done","cert":"0952942018","pages":"White Pages","note":"First issue of the ongoing Wolverine series; 1st Wolverine as Patch","creators":"Chris Claremont story \u00b7 John Buscema & Al Williamson art \u00b7 John Buscema cover","photos":{"front":"assets/c-0038-front-v2.jpg","label":"assets/c-0038-label-v2.jpg","back":"assets/c-0038-back-v2.jpg"},"slug":"item-c-0038.html","category":"Comics","recordUrl":"item-c-0038.html","valuation":{"low":300,"high":500,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0039","title":"Superman: The Man of Steel","issue":"#17","year":1992,"publisher":"DC","status":"Graded","grade":"CGC 9.6","significance":"Doomsday cameo","priority":"Done","cert":"1224637011","pages":"White Pages","note":"Doomsday cameo on last page","creators":"Louise Simonson story \u00b7 Jon Bogdanove & Bob McLeod art \u00b7 Jon Bogdanove & Dennis Janke cover","photos":{"front":"assets/c-0039-front-v2.jpg","label":"assets/c-0039-label-v2.jpg","back":"assets/c-0039-back-v2.jpg"},"slug":"item-c-0039.html","category":"Comics","recordUrl":"item-c-0039.html","valuation":{"low":50,"high":100,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-0040","title":"Wolverine","issue":"#10","year":1989,"publisher":"Marvel","status":"Graded","grade":"CGC 9.8","significance":"Sabretooth appearance","priority":"Done","cert":"0609939001","pages":"White Pages","note":"Sabretooth appearance; Wolverine pin-up on back cover","creators":"Chris Claremont story \u00b7 John Buscema & Bill Sienkiewicz art \u00b7 Bill Sienkiewicz cover","photos":{"front":"assets/c-0040-front-v2.jpg","label":"assets/c-0040-label-v2.jpg","back":"assets/c-0040-back-v2.jpg"},"slug":"item-c-0040.html","category":"Comics","recordUrl":"item-c-0040.html","valuation":{"low":100,"high":200,"currency":"USD","type":"working_catalog_range"}},{"sku":"C-BB-0001","title":"Darryl Strawberry","issue":"1984 Fleer #599","year":1984,"publisher":"Fleer","manufacturer":"Fleer","cardNumber":"599","team":"New York Mets","sport":"Baseball","position":"Outfield","status":"Raw","grade":"","category":"Baseball Cards","rookie":false,"hallOfFame":false,"significance":"Early-career Darryl Strawberry Mets card","priority":"Medium","recordUrl":"item-c-bb-0001.html","slug":"item-c-bb-0001.html","photos":{"front":"assets/cards/bb-0001-front.jpg","back":"assets/cards/bb-0001-back.jpg"},"valuation":{"low":0,"high":0,"currency":"USD","type":"pending"},"note":"Actual card photographed front and back."},{"sku":"C-BB-0002","title":"Darryl Strawberry","issue":"1984 Topps #182","year":1984,"publisher":"Topps","manufacturer":"Topps","cardNumber":"182","team":"New York Mets","sport":"Baseball","position":"Outfield","status":"Raw","grade":"","category":"Baseball Cards","rookie":false,"hallOfFame":false,"significance":"Early-career Darryl Strawberry Mets card","priority":"Medium","recordUrl":"item-c-bb-0002.html","slug":"item-c-bb-0002.html","photos":{"front":"assets/cards/bb-0002-front.jpg","back":"assets/cards/bb-0002-back.jpg"},"valuation":{"low":0,"high":0,"currency":"USD","type":"pending"},"note":"Displayed in a rookie-card holder; 1984 Topps is an early-career card rather than Strawberry\u2019s generally recognized true rookie issue."},{"sku":"C-BB-0003","title":"Rickey Henderson","issue":"1980 Topps #482","year":1980,"publisher":"Topps","manufacturer":"Topps","cardNumber":"482","team":"Oakland Athletics","sport":"Baseball","position":"Outfield","status":"Raw","grade":"","category":"Baseball Cards","rookie":true,"hallOfFame":true,"significance":"Rickey Henderson rookie card","priority":"Critical","recordUrl":"item-c-bb-0003.html","slug":"item-c-bb-0003.html","photos":{"front":"assets/cards/bb-0003-front.jpg","back":"assets/cards/bb-0003-back.jpg"},"valuation":{"low":0,"high":0,"currency":"USD","type":"pending"},"note":"Key card. Actual copy photographed front and back; grading review recommended."},{"sku":"C-BB-0004","title":"Rickey Henderson","issue":"1980 Topps #482","year":1980,"publisher":"Topps","manufacturer":"Topps","cardNumber":"482","team":"Oakland Athletics","sport":"Baseball","position":"Outfield","status":"Raw","grade":"","category":"Baseball Cards","rookie":true,"hallOfFame":true,"significance":"Rickey Henderson rookie card \u2014 second copy","priority":"Critical","recordUrl":"item-c-bb-0004.html","slug":"item-c-bb-0004.html","photos":{"front":"assets/cards/bb-0004-front.jpg","back":"assets/cards/bb-0004-back.jpg"},"valuation":{"low":0,"high":0,"currency":"USD","type":"pending"},"note":"Second physical copy. Kept under a separate permanent SKU for independent condition, grading and location tracking."},{"sku":"C-BB-0005","title":"Bo Jackson","issue":"1987 Topps Future Stars #170","year":1987,"publisher":"Topps","manufacturer":"Topps","cardNumber":"170","team":"Kansas City Royals","sport":"Baseball","position":"Outfield","status":"Raw","grade":"","category":"Baseball Cards","rookie":true,"hallOfFame":false,"significance":"Bo Jackson Future Stars rookie card","priority":"High","recordUrl":"item-c-bb-0005.html","slug":"item-c-bb-0005.html","photos":{"front":"assets/cards/bb-0005-front.jpg","back":"assets/cards/bb-0005-back.jpg"},"valuation":{"low":0,"high":0,"currency":"USD","type":"pending"},"note":"Key early Bo Jackson card. Actual copy photographed front and back."},{"sku":"C-BB-0006","title":"Bo Jackson","issue":"1988 Topps #750","year":1988,"publisher":"Topps","manufacturer":"Topps","cardNumber":"750","team":"Kansas City Royals","sport":"Baseball","position":"Outfield","status":"Raw","grade":"","category":"Baseball Cards","rookie":false,"hallOfFame":false,"significance":"Early-career Bo Jackson Royals card","priority":"Medium","recordUrl":"item-c-bb-0006.html","slug":"item-c-bb-0006.html","photos":{"front":"assets/cards/bb-0006-front.jpg","back":"assets/cards/bb-0006-back.jpg"},"valuation":{"low":0,"high":0,"currency":"USD","type":"pending"},"note":"Actual card photographed front and back."},{"sku":"C-BB-0007","title":"Tony Gwynn","issue":"1984 Fleer #301","year":1984,"publisher":"Fleer","manufacturer":"Fleer","cardNumber":"301","team":"San Diego Padres","sport":"Baseball","position":"Outfield","status":"Raw","grade":"","category":"Baseball Cards","rookie":false,"hallOfFame":true,"significance":"Early Tony Gwynn card; Hall of Fame player","priority":"High","recordUrl":"item-c-bb-0007.html","slug":"item-c-bb-0007.html","photos":{"front":"assets/cards/bb-0007-front.jpg","back":"assets/cards/bb-0007-back.jpg"},"valuation":{"low":0,"high":0,"currency":"USD","type":"pending"},"note":"Actual card photographed front and back."},{"sku":"C-BB-0008","title":"Bo Jackson","issue":"1988 Topps #501","year":1988,"publisher":"Topps","manufacturer":"Topps","cardNumber":"501","team":"Kansas City Royals","sport":"Baseball","position":"Outfield","status":"Raw","grade":"","category":"Baseball Cards","rookie":false,"hallOfFame":false,"significance":"Early-career Bo Jackson Royals card","priority":"Medium","recordUrl":"item-c-bb-0008.html","slug":"item-c-bb-0008.html","photos":{"front":"assets/cards/bb-0008-front.jpg","back":"assets/cards/bb-0008-back.jpg"},"valuation":{"low":0,"high":0,"currency":"USD","type":"pending"},"note":"Actual card photographed front and back."},{"sku":"C-BB-0009","title":"Frank Thomas","issue":"1990 Score #663","year":1990,"publisher":"Score","manufacturer":"Score","cardNumber":"663","team":"Chicago White Sox","sport":"Baseball","position":"First Base","status":"Raw","grade":"","category":"Baseball Cards","rookie":false,"hallOfFame":true,"significance":"1st Round Pick card; early Frank Thomas issue","priority":"High","recordUrl":"item-c-bb-0009.html","slug":"item-c-bb-0009.html","photos":{"front":"assets/cards/bb-0009-front.jpg","back":"assets/cards/bb-0009-back.jpg"},"valuation":{"low":0,"high":0,"currency":"USD","type":"pending"},"note":"Actual card photographed front and back."},{"sku":"C-BB-0010","title":"Don Mattingly","issue":"1984 O-Pee-Chee #8","year":1984,"publisher":"O-Pee-Chee","manufacturer":"O-Pee-Chee","cardNumber":"8","team":"New York Yankees","sport":"Baseball","position":"First Base","status":"Raw","grade":"","category":"Baseball Cards","rookie":true,"hallOfFame":false,"significance":"O-Pee-Chee Don Mattingly rookie card; grading candidate","priority":"High","recordUrl":"item-c-bb-0010.html","slug":"item-c-bb-0010.html","photos":{"front":"assets/cards/bb-0010-front.jpg","back":"assets/cards/bb-0010-back.jpg"},"valuation":{"low":0,"high":0,"currency":"USD","type":"pending"},"note":"Actual card photographed front and back."},{"sku":"C-BB-0011","title":"Darryl Strawberry","issue":"1984 Donruss #68","year":1984,"publisher":"Donruss","manufacturer":"Donruss","cardNumber":"68","team":"New York Mets","sport":"Baseball","position":"Outfield","status":"Raw","grade":"","category":"Baseball Cards","rookie":false,"hallOfFame":false,"significance":"Early-career Darryl Strawberry card","priority":"Medium","recordUrl":"item-c-bb-0011.html","slug":"item-c-bb-0011.html","photos":{"front":"assets/cards/bb-0011-front.jpg","back":"assets/cards/bb-0011-back.jpg"},"valuation":{"low":0,"high":0,"currency":"USD","type":"pending"},"note":"Actual card photographed front and back."},{"sku":"C-BB-0012","title":"Darryl Strawberry","issue":"1984 Topps #182","year":1984,"publisher":"Topps","manufacturer":"Topps","cardNumber":"182","team":"New York Mets","sport":"Baseball","position":"Outfield","status":"Raw","grade":"","category":"Baseball Cards","rookie":false,"hallOfFame":false,"significance":"Second physical copy; early-career Darryl Strawberry card","priority":"Medium","recordUrl":"item-c-bb-0012.html","slug":"item-c-bb-0012.html","photos":{"front":"assets/cards/bb-0012-front.jpg","back":"assets/cards/bb-0012-back.jpg"},"valuation":{"low":0,"high":0,"currency":"USD","type":"pending"},"note":"Actual card photographed front and back."},{"sku":"C-BB-0013","title":"Wade Boggs","issue":"1985 Donruss #172","year":1985,"publisher":"Donruss","manufacturer":"Donruss","cardNumber":"172","team":"Boston Red Sox","sport":"Baseball","position":"Third Base","status":"Raw","grade":"","category":"Baseball Cards","rookie":false,"hallOfFame":true,"significance":"Early Wade Boggs Hall of Fame card","priority":"Medium","recordUrl":"item-c-bb-0013.html","slug":"item-c-bb-0013.html","photos":{"front":"assets/cards/bb-0013-front.jpg","back":"assets/cards/bb-0013-back.jpg"},"valuation":{"low":0,"high":0,"currency":"USD","type":"pending"},"note":"Actual card photographed front and back."},{"sku":"C-BB-0014","title":"Francisco Alvarez","issue":"2020 Bowman Chrome Prospect Auto Refractor #CPA-FA /499","year":2020,"publisher":"Bowman Chrome","manufacturer":"Bowman Chrome","cardNumber":"CPA-FA","team":"New York Mets","sport":"Baseball","position":"Catcher","status":"Graded","grade":"PSA 10 Gem Mint","cert":"74955875","category":"Baseball Cards","rookie":false,"hallOfFame":false,"significance":"1st Bowman Chrome prospect autograph refractor, serial-numbered /499","priority":"High","recordUrl":"item-c-bb-0014.html","slug":"item-c-bb-0014.html","photos":{"front":"assets/cards/bb-0014-front.jpg","back":"assets/cards/bb-0014-back.jpg"},"valuation":{"low":275,"high":375,"currency":"USD","type":"working_market_range_2026-08"},"note":"Actual graded card photographed front and back. Working market range based on recent comparable sales; not a formal appraisal."},{"sku":"C-BB-0015","title":"James Wood","issue":"2022 Bowman Chrome Prospects Blue Refractor #BCP-108 /150","year":2022,"publisher":"Bowman Chrome","manufacturer":"Bowman Chrome","cardNumber":"BCP-108","team":"San Diego Padres","sport":"Baseball","position":"Outfield","status":"Graded","grade":"PSA/DNA Authentic \u00b7 Auto 10","cert":"82954401","category":"Baseball Cards","rookie":false,"hallOfFame":false,"significance":"1st Bowman Chrome blue refractor /150 with authenticated autograph graded 10","priority":"High","recordUrl":"item-c-bb-0015.html","slug":"item-c-bb-0015.html","photos":{"front":"assets/cards/bb-0015-front.jpg","back":"assets/cards/bb-0015-back.jpg"},"valuation":{"low":175,"high":300,"currency":"USD","type":"working_market_range_2026-08"},"note":"Actual graded card photographed front and back. Working market range based on recent comparable sales; not a formal appraisal."},{"sku":"C-BB-0016","title":"Victor Wembanyama","issue":"2023-24 Panini Prizm Ice #136","year":2023,"publisher":"Panini Prizm","manufacturer":"Panini Prizm","cardNumber":"136","team":"San Antonio Spurs","sport":"Basketball","position":"Center / Forward","status":"Graded","grade":"PSA 10 Gem Mint","cert":"92661964","category":"Basketball Cards","rookie":true,"hallOfFame":false,"significance":"Prizm Ice rookie card; PSA 10","priority":"Very High","recordUrl":"item-c-bb-0016.html","slug":"item-c-bb-0016.html","photos":{"front":"assets/cards/bb-0016-front.jpg","back":"assets/cards/bb-0016-back.jpg"},"valuation":{"low":1300,"high":1700,"currency":"USD","type":"working_market_range_2026-08"},"note":"Actual graded card photographed front and back. Working market range based on recent comparable sales; not a formal appraisal."},{"sku":"C-BB-0017","title":"Vladimir Guerrero Jr.","issue":"2016 Bowman Chrome Prospects #BCP55","year":2016,"publisher":"Bowman Chrome","manufacturer":"Bowman Chrome","cardNumber":"BCP55","team":"Toronto Blue Jays","sport":"Baseball","position":"Outfield","status":"Graded","grade":"PSA 10 Gem Mint","cert":"61827611","category":"Baseball Cards","rookie":false,"hallOfFame":false,"significance":"1st Bowman Chrome prospect; PSA 10","priority":"High","recordUrl":"item-c-bb-0017.html","slug":"item-c-bb-0017.html","photos":{"front":"assets/cards/bb-0017-front.jpg","back":"assets/cards/bb-0017-back.jpg"},"valuation":{"low":60,"high":90,"currency":"USD","type":"working_market_range_2026-08"},"note":"Actual graded card photographed front and back. Working market range based on recent comparable sales; not a formal appraisal."},{"sku":"C-BB-0018","title":"Nolan McLean","issue":"2023 Bowman Draft Chrome Prospect Auto Purple Refractor #CDA-NM /250","year":2023,"publisher":"Bowman Draft","manufacturer":"Bowman Draft","cardNumber":"CDA-NM","team":"New York Mets","sport":"Baseball","position":"Pitcher / Outfielder","status":"Graded","grade":"PSA 10 Gem Mint","cert":"117522933","category":"Baseball Cards","rookie":false,"hallOfFame":false,"significance":"1st Bowman Chrome prospect autograph purple refractor, serial-numbered /250","priority":"High","recordUrl":"item-c-bb-0018.html","slug":"item-c-bb-0018.html","photos":{"front":"assets/cards/bb-0018-front.jpg","back":"assets/cards/bb-0018-back.jpg"},"valuation":{"low":350,"high":600,"currency":"USD","type":"working_market_range_2026-08"},"note":"Actual graded card photographed front and back. Working market range based on recent comparable sales; not a formal appraisal."},{"sku":"C-BB-0019","title":"Junior Caminero","issue":"2023 Bowman Chrome Prospects Purple Refractor #BCP-61 /250","year":2023,"publisher":"Bowman Chrome","manufacturer":"Bowman Chrome","cardNumber":"BCP-61","team":"Tampa Bay Rays","sport":"Baseball","position":"Shortstop","status":"Graded","grade":"PSA/DNA Authentic \u00b7 Auto 10","cert":"76329226","category":"Baseball Cards","rookie":false,"hallOfFame":false,"significance":"1st Bowman Chrome purple refractor /250 with authenticated autograph graded 10","priority":"High","recordUrl":"item-c-bb-0019.html","slug":"item-c-bb-0019.html","photos":{"front":"assets/cards/bb-0019-front.jpg","back":"assets/cards/bb-0019-back.jpg"},"valuation":{"low":150,"high":300,"currency":"USD","type":"working_market_range_2026-08"},"note":"Actual graded card photographed front and back. Working market range based on recent comparable sales; not a formal appraisal."},{"sku":"C-BB-0020","title":"Francisco Lindor","issue":"2011 Bowman Chrome Draft Prospect Auto #BCAP-FL","year":2011,"publisher":"Bowman Chrome Draft","manufacturer":"Bowman Chrome Draft","cardNumber":"BCAP-FL","team":"Cleveland Indians","sport":"Baseball","position":"Shortstop","status":"Graded","grade":"PSA 10 Gem Mint \u00b7 Auto 10","cert":"23120976","category":"Baseball Cards","rookie":false,"hallOfFame":false,"significance":"1st Bowman Chrome prospect autograph; PSA 10 with Auto 10","priority":"Very High","recordUrl":"item-c-bb-0020.html","slug":"item-c-bb-0020.html","photos":{"front":"assets/cards/bb-0020-front.jpg","back":"assets/cards/bb-0020-back.jpg"},"valuation":{"low":700,"high":950,"currency":"USD","type":"working_market_range_2026-08"},"note":"Actual graded card photographed front and back. Working market range based on recent comparable sales; not a formal appraisal."},{"sku":"C-BB-0021","title":"Mark Vientos","issue":"2017 Bowman Draft Chrome DP Auto Refractor #CDA-MV /499","year":2017,"publisher":"Bowman Draft","manufacturer":"Bowman Draft","cardNumber":"CDA-MV","team":"New York Mets","sport":"Baseball","position":"Third Base","status":"Graded","grade":"PSA 10 Gem Mint","cert":"42585102","category":"Baseball Cards","rookie":false,"hallOfFame":false,"significance":"1st Bowman Chrome draft pick autograph refractor, serial-numbered /499","priority":"High","recordUrl":"item-c-bb-0021.html","slug":"item-c-bb-0021.html","photos":{"front":"assets/cards/bb-0021-front.jpg","back":"assets/cards/bb-0021-back.jpg"},"valuation":{"low":70,"high":120,"currency":"USD","type":"working_market_range_2026-08"},"note":"Actual graded card photographed front and back. Working market range based on recent comparable sales; not a formal appraisal."}]};
+window.KAC_INVENTORY_DATA = {
+  "schemaVersion": "1.0",
+  "siteVersion": "11.6",
+  "collection": "KAC Vault",
+  "canonicalDomain": "https://kacvault.com",
+  "notes": "KAC Vault v11.6 \u2014 adds basketball card collection and portrait-oriented card fronts.",
+  "items": [
+    {
+      "sku": "C-0001",
+      "title": "Silver Surfer",
+      "issue": "#75",
+      "year": 1992,
+      "publisher": "Marvel",
+      "status": "Raw",
+      "grade": "",
+      "significance": "75th issue; holographic/foil cover",
+      "priority": "Low",
+      "slug": "item-c-0001.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0001.html",
+      "valuation": {
+        "low": 10,
+        "high": 40,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0002",
+      "title": "Venom: Lethal Protector",
+      "issue": "#1",
+      "year": 1993,
+      "publisher": "Marvel",
+      "status": "Raw",
+      "grade": "",
+      "significance": "Part 1 of 6; foil cover; Spider-Man appearance",
+      "priority": "Low",
+      "slug": "item-c-0002.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0002.html",
+      "valuation": {
+        "low": 15,
+        "high": 60,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0003",
+      "title": "The Punisher",
+      "issue": "#75",
+      "year": 1993,
+      "publisher": "Marvel",
+      "status": "Raw",
+      "grade": "",
+      "significance": "75th issue",
+      "priority": "Low",
+      "slug": "item-c-0003.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0003.html",
+      "valuation": {
+        "low": 5,
+        "high": 25,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0004",
+      "title": "Daredevil",
+      "issue": "#252",
+      "year": 1988,
+      "publisher": "Marvel",
+      "status": "Raw",
+      "grade": "",
+      "significance": "Fall of the Mutants tie-in",
+      "priority": "Low",
+      "slug": "item-c-0004.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0004.html",
+      "valuation": {
+        "low": 5,
+        "high": 25,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0005",
+      "title": "Batman Begins",
+      "issue": "Movie Adaptation",
+      "year": "",
+      "publisher": "DC",
+      "status": "Raw / Signed",
+      "grade": "",
+      "significance": "Signed/numbered 641/3500; signature needs authentication",
+      "priority": "Medium",
+      "slug": "item-c-0005.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0005.html",
+      "valuation": {
+        "low": 25,
+        "high": 100,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0006",
+      "title": "The Walking Dead",
+      "issue": "#1 10th Anniversary Edition",
+      "year": "",
+      "publisher": "Image",
+      "status": "Raw / Signed",
+      "grade": "",
+      "significance": "Appears signed; signature needs identification/authentication",
+      "priority": "Medium",
+      "slug": "item-c-0006.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0006.html",
+      "valuation": {
+        "low": 25,
+        "high": 150,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0007",
+      "title": "Wolverine Limited Series",
+      "issue": "#1",
+      "year": 1982,
+      "publisher": "Marvel",
+      "status": "Raw",
+      "grade": "",
+      "significance": "Classic Claremont/Miller limited series #1",
+      "priority": "High",
+      "slug": "item-c-0007.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0007.html",
+      "valuation": {
+        "low": 100,
+        "high": 400,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0008",
+      "title": "The Incredible Hulk",
+      "issue": "#340",
+      "year": 1988,
+      "publisher": "Marvel",
+      "status": "Raw",
+      "grade": "",
+      "significance": "Iconic Todd McFarlane Wolverine/Hulk cover",
+      "priority": "High",
+      "slug": "item-c-0008.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0008.html",
+      "valuation": {
+        "low": 100,
+        "high": 500,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0009",
+      "title": "Batman",
+      "issue": "#497",
+      "year": 1993,
+      "publisher": "DC",
+      "status": "Raw",
+      "grade": "",
+      "significance": "Knightfall \u2014 Breaking of the Batman",
+      "priority": "Low",
+      "slug": "item-c-0009.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0009.html",
+      "valuation": {
+        "low": 15,
+        "high": 50,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0010",
+      "title": "Simpsons Comics",
+      "issue": "#1",
+      "year": 1993,
+      "publisher": "Bongo",
+      "status": "Raw",
+      "grade": "",
+      "significance": "First issue",
+      "priority": "Low",
+      "slug": "item-c-0010.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0010.html",
+      "valuation": {
+        "low": 30,
+        "high": 100,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0011",
+      "title": "Superman-related black/red cover",
+      "issue": "Unknown",
+      "year": "",
+      "publisher": "DC",
+      "status": "Raw",
+      "grade": "",
+      "significance": "Needs additional identification",
+      "priority": "Low",
+      "slug": "item-c-0011.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0011.html",
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0012",
+      "title": "Haunted Mansion",
+      "issue": "#1",
+      "year": "",
+      "publisher": "",
+      "status": "Raw",
+      "grade": "",
+      "significance": "Disney attraction-inspired; unusual packaged/premium presentation",
+      "priority": "Low",
+      "slug": "item-c-0012.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0012.html",
+      "valuation": {
+        "low": 10,
+        "high": 50,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0013",
+      "title": "Detective Comics",
+      "issue": "#578",
+      "year": 1987,
+      "publisher": "DC",
+      "status": "Raw",
+      "grade": "",
+      "significance": "Batman: Year Two Part 4; Todd McFarlane art",
+      "priority": "Medium",
+      "slug": "item-c-0013.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0013.html",
+      "valuation": {
+        "low": 40,
+        "high": 150,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0014",
+      "title": "World's Finest Comics",
+      "issue": "#200",
+      "year": 1971,
+      "publisher": "DC",
+      "status": "Raw",
+      "grade": "",
+      "significance": "Bronze Age Superman/Robin issue",
+      "priority": "Low",
+      "slug": "item-c-0014.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0014.html",
+      "valuation": {
+        "low": 30,
+        "high": 100,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0015",
+      "title": "Disney's Aladdin",
+      "issue": "#2",
+      "year": "",
+      "publisher": "Marvel",
+      "status": "Raw",
+      "grade": "",
+      "significance": "Direct edition",
+      "priority": "Low",
+      "slug": "item-c-0015.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0015.html",
+      "valuation": {
+        "low": 5,
+        "high": 20,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0016",
+      "title": "Amazing Spider-Man",
+      "issue": "#300",
+      "year": 1988,
+      "publisher": "Marvel",
+      "status": "Raw",
+      "grade": "",
+      "significance": "Major key; first full appearance of Venom",
+      "priority": "Very High",
+      "slug": "item-c-0016.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0016.html",
+      "valuation": {
+        "low": 375,
+        "high": 1500,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      },
+      "photos": {
+        "front": "assets/c-0016-front-v11.jpg",
+        "back": "assets/c-0016-back-v11.jpg"
+      }
+    },
+    {
+      "sku": "C-0017",
+      "title": "Spawn",
+      "issue": "#1",
+      "year": 1992,
+      "publisher": "Image",
+      "status": "Raw",
+      "grade": "",
+      "significance": "Todd McFarlane; first copy",
+      "priority": "Low",
+      "slug": "item-c-0017.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0017.html",
+      "valuation": {
+        "low": 20,
+        "high": 60,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0018",
+      "title": "Spawn",
+      "issue": "#1",
+      "year": 1992,
+      "publisher": "Image",
+      "status": "Raw",
+      "grade": "",
+      "significance": "Second copy",
+      "priority": "Low",
+      "slug": "item-c-0018.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0018.html",
+      "valuation": {
+        "low": 20,
+        "high": 60,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0019",
+      "title": "Amazing Spider-Man",
+      "issue": "#122",
+      "year": 1973,
+      "publisher": "Marvel",
+      "status": "Raw",
+      "grade": "",
+      "significance": "Death of Norman Osborn / Green Goblin",
+      "priority": "High",
+      "slug": "item-c-0019.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0019.html",
+      "valuation": {
+        "low": 150,
+        "high": 700,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      },
+      "photos": {
+        "front": "assets/c-0019-front-v11.jpg",
+        "back": "assets/c-0019-back-v11.jpg"
+      }
+    },
+    {
+      "sku": "C-0020",
+      "title": "Marvel Spotlight",
+      "issue": "#5",
+      "year": 1972,
+      "publisher": "Marvel",
+      "status": "Raw",
+      "grade": "",
+      "significance": "First appearance/origin of Ghost Rider (Johnny Blaze)",
+      "priority": "Critical",
+      "slug": "item-c-0020.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0020.html",
+      "valuation": {
+        "low": 1000,
+        "high": 4000,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      },
+      "photos": {
+        "front": "assets/c-0020-front-v11.jpg",
+        "back": "assets/c-0020-back-v11.jpg"
+      }
+    },
+    {
+      "sku": "C-0021",
+      "title": "World's Finest",
+      "issue": "#199",
+      "year": 1970,
+      "publisher": "DC",
+      "status": "Raw",
+      "grade": "",
+      "significance": "Superman/Flash race",
+      "priority": "Low",
+      "slug": "item-c-0021.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0021.html",
+      "valuation": {
+        "low": 30,
+        "high": 100,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0022",
+      "title": "Wolverine Limited Series",
+      "issue": "#3",
+      "year": 1982,
+      "publisher": "Marvel",
+      "status": "Raw",
+      "grade": "",
+      "significance": "Frank Miller / Chris Claremont",
+      "priority": "Medium",
+      "slug": "item-c-0022.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0022.html",
+      "valuation": {
+        "low": 40,
+        "high": 100,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0023",
+      "title": "World's Finest",
+      "issue": "#198",
+      "year": 1970,
+      "publisher": "DC",
+      "status": "Raw",
+      "grade": "",
+      "significance": "Superman/Flash race",
+      "priority": "Low",
+      "slug": "item-c-0023.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0023.html",
+      "valuation": {
+        "low": 30,
+        "high": 100,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0024",
+      "title": "Wolverine Limited Series",
+      "issue": "#4",
+      "year": 1982,
+      "publisher": "Marvel",
+      "status": "Raw",
+      "grade": "",
+      "significance": "Final issue of limited series",
+      "priority": "Medium",
+      "slug": "item-c-0024.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0024.html",
+      "valuation": {
+        "low": 40,
+        "high": 100,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0025",
+      "title": "Incredible Hulk",
+      "issue": "#181",
+      "year": 1974,
+      "publisher": "Marvel",
+      "status": "Raw / Incomplete",
+      "grade": "",
+      "significance": "First full Wolverine; Marvel Value Stamp cut out",
+      "priority": "Critical",
+      "slug": "item-c-0025.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0025.html",
+      "valuation": {
+        "low": 1000,
+        "high": 2500,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      },
+      "photos": {
+        "front": "assets/c-0025-front-v11.jpg",
+        "back": "assets/c-0025-back-v11.jpg"
+      }
+    },
+    {
+      "sku": "C-0026",
+      "title": "Amazing Spider-Man",
+      "issue": "#129",
+      "year": 1974,
+      "publisher": "Marvel",
+      "status": "Raw",
+      "grade": "",
+      "significance": "First appearance of Punisher",
+      "priority": "Critical",
+      "slug": "item-c-0026.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0026.html",
+      "valuation": {
+        "low": 1200,
+        "high": 2600,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      },
+      "photos": {
+        "front": "assets/c-0026-front-v11.jpg",
+        "back": "assets/c-0026-back-v11.jpg"
+      }
+    },
+    {
+      "sku": "C-0027",
+      "title": "Incredible Hulk",
+      "issue": "#340",
+      "year": 1988,
+      "publisher": "Marvel",
+      "status": "Raw",
+      "grade": "",
+      "significance": "Iconic Todd McFarlane Wolverine/Hulk cover",
+      "priority": "High",
+      "slug": "item-c-0027.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0027.html",
+      "valuation": {
+        "low": 100,
+        "high": 500,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      },
+      "photos": {
+        "front": "assets/c-0027-front-v11.jpg",
+        "back": "assets/c-0027-back-v11.jpg"
+      }
+    },
+    {
+      "sku": "C-0028",
+      "title": "Amazing Spider-Man",
+      "issue": "#14",
+      "year": 1964,
+      "publisher": "Marvel",
+      "status": "Raw",
+      "grade": "",
+      "significance": "First appearance of Green Goblin",
+      "priority": "Critical",
+      "slug": "item-c-0028.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0028.html",
+      "valuation": {
+        "low": 2000,
+        "high": 3000,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      },
+      "photos": {
+        "front": "assets/c-0028-front-v11.jpg",
+        "back": "assets/c-0028-back-v11.jpg"
+      }
+    },
+    {
+      "sku": "C-0029",
+      "title": "Wolverine Limited Series",
+      "issue": "#1",
+      "year": 1982,
+      "publisher": "Marvel",
+      "status": "Raw",
+      "grade": "",
+      "significance": "Classic Claremont/Miller limited series #1",
+      "priority": "High",
+      "slug": "item-c-0029.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0029.html",
+      "valuation": {
+        "low": 100,
+        "high": 400,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      },
+      "photos": {
+        "front": "assets/c-0029-front-v11.jpg",
+        "back": "assets/c-0029-back-v11.jpg"
+      }
+    },
+    {
+      "sku": "C-0030",
+      "title": "Spawn",
+      "issue": "#6",
+      "year": 1992,
+      "publisher": "Image",
+      "status": "Raw",
+      "grade": "",
+      "significance": "Early Spawn",
+      "priority": "Low",
+      "slug": "item-c-0030.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0030.html",
+      "valuation": {
+        "low": 10,
+        "high": 25,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0031",
+      "title": "Wolverine Limited Series",
+      "issue": "#2",
+      "year": 1982,
+      "publisher": "Marvel",
+      "status": "Raw",
+      "grade": "",
+      "significance": "Part of classic Miller/Claremont run",
+      "priority": "Medium",
+      "slug": "item-c-0031.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0031.html",
+      "valuation": {
+        "low": 50,
+        "high": 150,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0032",
+      "title": "Superman Memorial Set",
+      "issue": "Superman #75 package",
+      "year": "",
+      "publisher": "DC",
+      "status": "Packaged",
+      "grade": "",
+      "significance": "Collectible memorial set; fairly common",
+      "priority": "Low",
+      "slug": "item-c-0032.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0032.html",
+      "valuation": {
+        "low": 20,
+        "high": 50,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0033",
+      "title": "Disney's Aladdin",
+      "issue": "#1 Direct Edition",
+      "year": "",
+      "publisher": "Marvel",
+      "status": "Raw",
+      "grade": "",
+      "significance": "Minor collectible",
+      "priority": "Low",
+      "slug": "item-c-0033.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0033.html",
+      "valuation": {
+        "low": 5,
+        "high": 20,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0034",
+      "title": "Spawn",
+      "issue": "#5",
+      "year": 1992,
+      "publisher": "Image",
+      "status": "Raw",
+      "grade": "",
+      "significance": "Early Spawn",
+      "priority": "Low",
+      "slug": "item-c-0034.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0034.html",
+      "valuation": {
+        "low": 10,
+        "high": 30,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0035",
+      "title": "Spawn",
+      "issue": "#4",
+      "year": 1992,
+      "publisher": "Image",
+      "status": "Raw",
+      "grade": "",
+      "significance": "Early Spawn",
+      "priority": "Low",
+      "slug": "item-c-0035.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0035.html",
+      "valuation": {
+        "low": 10,
+        "high": 30,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0036",
+      "title": "Wolverine Limited Series",
+      "issue": "#1",
+      "year": 1982,
+      "publisher": "Marvel",
+      "status": "Graded",
+      "grade": "CGC 9.6",
+      "significance": "1st solo Wolverine comic; Yukio cameo on last page",
+      "priority": "Done",
+      "cert": "0944526027",
+      "pages": "Off-White to White",
+      "photos": {
+        "front": "assets/c-0036-front-v2.jpg",
+        "label": "assets/c-0036-label-v2.jpg",
+        "back": "assets/c-0036-back-v2.jpg"
+      },
+      "note": "First solo Wolverine comic; Yukio cameo on last page",
+      "creators": "Chris Claremont story \u00b7 Frank Miller & Joe Rubinstein cover/art",
+      "slug": "item-c-0036.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0036.html",
+      "valuation": {
+        "low": 400,
+        "high": 700,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0037",
+      "title": "Iron Fist",
+      "issue": "#1",
+      "year": 1975,
+      "publisher": "Marvel",
+      "status": "Graded",
+      "grade": "CGC 9.2",
+      "significance": "Strong Bronze Age #1",
+      "priority": "Done",
+      "cert": "",
+      "pages": "White Pages",
+      "note": "First issue of the Iron Fist solo series; Iron Fist battles Iron Man",
+      "creators": "John Byrne & Al McWilliams art",
+      "photos": {
+        "front": "assets/c-0037-front-v2.jpg",
+        "label": "assets/c-0037-label-v2.jpg",
+        "back": "assets/c-0037-back-v2.jpg"
+      },
+      "slug": "item-c-0037.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0037.html",
+      "valuation": {
+        "low": 250,
+        "high": 500,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0038",
+      "title": "Wolverine",
+      "issue": "#1 (1988)",
+      "year": 1988,
+      "publisher": "Marvel",
+      "status": "Graded",
+      "grade": "CGC 9.8",
+      "significance": "First issue of ongoing Wolverine series",
+      "priority": "Done",
+      "cert": "0952942018",
+      "pages": "White Pages",
+      "note": "First issue of the ongoing Wolverine series; 1st Wolverine as Patch",
+      "creators": "Chris Claremont story \u00b7 John Buscema & Al Williamson art \u00b7 John Buscema cover",
+      "photos": {
+        "front": "assets/c-0038-front-v2.jpg",
+        "label": "assets/c-0038-label-v2.jpg",
+        "back": "assets/c-0038-back-v2.jpg"
+      },
+      "slug": "item-c-0038.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0038.html",
+      "valuation": {
+        "low": 300,
+        "high": 500,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0039",
+      "title": "Superman: The Man of Steel",
+      "issue": "#17",
+      "year": 1992,
+      "publisher": "DC",
+      "status": "Graded",
+      "grade": "CGC 9.6",
+      "significance": "Doomsday cameo",
+      "priority": "Done",
+      "cert": "1224637011",
+      "pages": "White Pages",
+      "note": "Doomsday cameo on last page",
+      "creators": "Louise Simonson story \u00b7 Jon Bogdanove & Bob McLeod art \u00b7 Jon Bogdanove & Dennis Janke cover",
+      "photos": {
+        "front": "assets/c-0039-front-v2.jpg",
+        "label": "assets/c-0039-label-v2.jpg",
+        "back": "assets/c-0039-back-v2.jpg"
+      },
+      "slug": "item-c-0039.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0039.html",
+      "valuation": {
+        "low": 50,
+        "high": 100,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-0040",
+      "title": "Wolverine",
+      "issue": "#10",
+      "year": 1989,
+      "publisher": "Marvel",
+      "status": "Graded",
+      "grade": "CGC 9.8",
+      "significance": "Sabretooth appearance",
+      "priority": "Done",
+      "cert": "0609939001",
+      "pages": "White Pages",
+      "note": "Sabretooth appearance; Wolverine pin-up on back cover",
+      "creators": "Chris Claremont story \u00b7 John Buscema & Bill Sienkiewicz art \u00b7 Bill Sienkiewicz cover",
+      "photos": {
+        "front": "assets/c-0040-front-v2.jpg",
+        "label": "assets/c-0040-label-v2.jpg",
+        "back": "assets/c-0040-back-v2.jpg"
+      },
+      "slug": "item-c-0040.html",
+      "category": "Comics",
+      "recordUrl": "item-c-0040.html",
+      "valuation": {
+        "low": 100,
+        "high": 200,
+        "currency": "USD",
+        "type": "working_catalog_range"
+      }
+    },
+    {
+      "sku": "C-BB-0001",
+      "title": "Darryl Strawberry",
+      "issue": "1984 Fleer #599",
+      "year": 1984,
+      "publisher": "Fleer",
+      "manufacturer": "Fleer",
+      "cardNumber": "599",
+      "team": "New York Mets",
+      "sport": "Baseball",
+      "position": "Outfield",
+      "status": "Raw",
+      "grade": "",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": false,
+      "significance": "Early-career Darryl Strawberry Mets card",
+      "priority": "Medium",
+      "recordUrl": "item-c-bb-0001.html",
+      "slug": "item-c-bb-0001.html",
+      "photos": {
+        "front": "assets/cards/bb-0001-front.jpg",
+        "back": "assets/cards/bb-0001-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "pending"
+      },
+      "note": "Actual card photographed front and back."
+    },
+    {
+      "sku": "C-BB-0002",
+      "title": "Darryl Strawberry",
+      "issue": "1984 Topps #182",
+      "year": 1984,
+      "publisher": "Topps",
+      "manufacturer": "Topps",
+      "cardNumber": "182",
+      "team": "New York Mets",
+      "sport": "Baseball",
+      "position": "Outfield",
+      "status": "Raw",
+      "grade": "",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": false,
+      "significance": "Early-career Darryl Strawberry Mets card",
+      "priority": "Medium",
+      "recordUrl": "item-c-bb-0002.html",
+      "slug": "item-c-bb-0002.html",
+      "photos": {
+        "front": "assets/cards/bb-0002-front.jpg",
+        "back": "assets/cards/bb-0002-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "pending"
+      },
+      "note": "Displayed in a rookie-card holder; 1984 Topps is an early-career card rather than Strawberry\u2019s generally recognized true rookie issue."
+    },
+    {
+      "sku": "C-BB-0003",
+      "title": "Rickey Henderson",
+      "issue": "1980 Topps #482",
+      "year": 1980,
+      "publisher": "Topps",
+      "manufacturer": "Topps",
+      "cardNumber": "482",
+      "team": "Oakland Athletics",
+      "sport": "Baseball",
+      "position": "Outfield",
+      "status": "Raw",
+      "grade": "",
+      "category": "Baseball Cards",
+      "rookie": true,
+      "hallOfFame": true,
+      "significance": "Rickey Henderson rookie card",
+      "priority": "Critical",
+      "recordUrl": "item-c-bb-0003.html",
+      "slug": "item-c-bb-0003.html",
+      "photos": {
+        "front": "assets/cards/bb-0003-front.jpg",
+        "back": "assets/cards/bb-0003-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "pending"
+      },
+      "note": "Key card. Actual copy photographed front and back; grading review recommended."
+    },
+    {
+      "sku": "C-BB-0004",
+      "title": "Rickey Henderson",
+      "issue": "1980 Topps #482",
+      "year": 1980,
+      "publisher": "Topps",
+      "manufacturer": "Topps",
+      "cardNumber": "482",
+      "team": "Oakland Athletics",
+      "sport": "Baseball",
+      "position": "Outfield",
+      "status": "Raw",
+      "grade": "",
+      "category": "Baseball Cards",
+      "rookie": true,
+      "hallOfFame": true,
+      "significance": "Rickey Henderson rookie card \u2014 second copy",
+      "priority": "Critical",
+      "recordUrl": "item-c-bb-0004.html",
+      "slug": "item-c-bb-0004.html",
+      "photos": {
+        "front": "assets/cards/bb-0004-front.jpg",
+        "back": "assets/cards/bb-0004-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "pending"
+      },
+      "note": "Second physical copy. Kept under a separate permanent SKU for independent condition, grading and location tracking."
+    },
+    {
+      "sku": "C-BB-0005",
+      "title": "Bo Jackson",
+      "issue": "1987 Topps Future Stars #170",
+      "year": 1987,
+      "publisher": "Topps",
+      "manufacturer": "Topps",
+      "cardNumber": "170",
+      "team": "Kansas City Royals",
+      "sport": "Baseball",
+      "position": "Outfield",
+      "status": "Raw",
+      "grade": "",
+      "category": "Baseball Cards",
+      "rookie": true,
+      "hallOfFame": false,
+      "significance": "Bo Jackson Future Stars rookie card",
+      "priority": "High",
+      "recordUrl": "item-c-bb-0005.html",
+      "slug": "item-c-bb-0005.html",
+      "photos": {
+        "front": "assets/cards/bb-0005-front.jpg",
+        "back": "assets/cards/bb-0005-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "pending"
+      },
+      "note": "Key early Bo Jackson card. Actual copy photographed front and back."
+    },
+    {
+      "sku": "C-BB-0006",
+      "title": "Bo Jackson",
+      "issue": "1988 Topps #750",
+      "year": 1988,
+      "publisher": "Topps",
+      "manufacturer": "Topps",
+      "cardNumber": "750",
+      "team": "Kansas City Royals",
+      "sport": "Baseball",
+      "position": "Outfield",
+      "status": "Raw",
+      "grade": "",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": false,
+      "significance": "Early-career Bo Jackson Royals card",
+      "priority": "Medium",
+      "recordUrl": "item-c-bb-0006.html",
+      "slug": "item-c-bb-0006.html",
+      "photos": {
+        "front": "assets/cards/bb-0006-front.jpg",
+        "back": "assets/cards/bb-0006-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "pending"
+      },
+      "note": "Actual card photographed front and back."
+    },
+    {
+      "sku": "C-BB-0007",
+      "title": "Tony Gwynn",
+      "issue": "1984 Fleer #301",
+      "year": 1984,
+      "publisher": "Fleer",
+      "manufacturer": "Fleer",
+      "cardNumber": "301",
+      "team": "San Diego Padres",
+      "sport": "Baseball",
+      "position": "Outfield",
+      "status": "Raw",
+      "grade": "",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": true,
+      "significance": "Early Tony Gwynn card; Hall of Fame player",
+      "priority": "High",
+      "recordUrl": "item-c-bb-0007.html",
+      "slug": "item-c-bb-0007.html",
+      "photos": {
+        "front": "assets/cards/bb-0007-front.jpg",
+        "back": "assets/cards/bb-0007-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "pending"
+      },
+      "note": "Actual card photographed front and back."
+    },
+    {
+      "sku": "C-BB-0008",
+      "title": "Bo Jackson",
+      "issue": "1988 Topps #501",
+      "year": 1988,
+      "publisher": "Topps",
+      "manufacturer": "Topps",
+      "cardNumber": "501",
+      "team": "Kansas City Royals",
+      "sport": "Baseball",
+      "position": "Outfield",
+      "status": "Raw",
+      "grade": "",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": false,
+      "significance": "Early-career Bo Jackson Royals card",
+      "priority": "Medium",
+      "recordUrl": "item-c-bb-0008.html",
+      "slug": "item-c-bb-0008.html",
+      "photos": {
+        "front": "assets/cards/bb-0008-front.jpg",
+        "back": "assets/cards/bb-0008-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "pending"
+      },
+      "note": "Actual card photographed front and back."
+    },
+    {
+      "sku": "C-BB-0009",
+      "title": "Frank Thomas",
+      "issue": "1990 Score #663",
+      "year": 1990,
+      "publisher": "Score",
+      "manufacturer": "Score",
+      "cardNumber": "663",
+      "team": "Chicago White Sox",
+      "sport": "Baseball",
+      "position": "First Base",
+      "status": "Raw",
+      "grade": "",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": true,
+      "significance": "1st Round Pick card; early Frank Thomas issue",
+      "priority": "High",
+      "recordUrl": "item-c-bb-0009.html",
+      "slug": "item-c-bb-0009.html",
+      "photos": {
+        "front": "assets/cards/bb-0009-front.jpg",
+        "back": "assets/cards/bb-0009-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "pending"
+      },
+      "note": "Actual card photographed front and back."
+    },
+    {
+      "sku": "C-BB-0010",
+      "title": "Don Mattingly",
+      "issue": "1984 O-Pee-Chee #8",
+      "year": 1984,
+      "publisher": "O-Pee-Chee",
+      "manufacturer": "O-Pee-Chee",
+      "cardNumber": "8",
+      "team": "New York Yankees",
+      "sport": "Baseball",
+      "position": "First Base",
+      "status": "Raw",
+      "grade": "",
+      "category": "Baseball Cards",
+      "rookie": true,
+      "hallOfFame": false,
+      "significance": "O-Pee-Chee Don Mattingly rookie card; grading candidate",
+      "priority": "High",
+      "recordUrl": "item-c-bb-0010.html",
+      "slug": "item-c-bb-0010.html",
+      "photos": {
+        "front": "assets/cards/bb-0010-front.jpg",
+        "back": "assets/cards/bb-0010-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "pending"
+      },
+      "note": "Actual card photographed front and back."
+    },
+    {
+      "sku": "C-BB-0011",
+      "title": "Darryl Strawberry",
+      "issue": "1984 Donruss #68",
+      "year": 1984,
+      "publisher": "Donruss",
+      "manufacturer": "Donruss",
+      "cardNumber": "68",
+      "team": "New York Mets",
+      "sport": "Baseball",
+      "position": "Outfield",
+      "status": "Raw",
+      "grade": "",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": false,
+      "significance": "Early-career Darryl Strawberry card",
+      "priority": "Medium",
+      "recordUrl": "item-c-bb-0011.html",
+      "slug": "item-c-bb-0011.html",
+      "photos": {
+        "front": "assets/cards/bb-0011-front.jpg",
+        "back": "assets/cards/bb-0011-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "pending"
+      },
+      "note": "Actual card photographed front and back."
+    },
+    {
+      "sku": "C-BB-0012",
+      "title": "Darryl Strawberry",
+      "issue": "1984 Topps #182",
+      "year": 1984,
+      "publisher": "Topps",
+      "manufacturer": "Topps",
+      "cardNumber": "182",
+      "team": "New York Mets",
+      "sport": "Baseball",
+      "position": "Outfield",
+      "status": "Raw",
+      "grade": "",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": false,
+      "significance": "Second physical copy; early-career Darryl Strawberry card",
+      "priority": "Medium",
+      "recordUrl": "item-c-bb-0012.html",
+      "slug": "item-c-bb-0012.html",
+      "photos": {
+        "front": "assets/cards/bb-0012-front.jpg",
+        "back": "assets/cards/bb-0012-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "pending"
+      },
+      "note": "Actual card photographed front and back."
+    },
+    {
+      "sku": "C-BB-0013",
+      "title": "Wade Boggs",
+      "issue": "1985 Donruss #172",
+      "year": 1985,
+      "publisher": "Donruss",
+      "manufacturer": "Donruss",
+      "cardNumber": "172",
+      "team": "Boston Red Sox",
+      "sport": "Baseball",
+      "position": "Third Base",
+      "status": "Raw",
+      "grade": "",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": true,
+      "significance": "Early Wade Boggs Hall of Fame card",
+      "priority": "Medium",
+      "recordUrl": "item-c-bb-0013.html",
+      "slug": "item-c-bb-0013.html",
+      "photos": {
+        "front": "assets/cards/bb-0013-front.jpg",
+        "back": "assets/cards/bb-0013-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "pending"
+      },
+      "note": "Actual card photographed front and back."
+    },
+    {
+      "sku": "C-BB-0014",
+      "title": "Francisco Alvarez",
+      "issue": "2020 Bowman Chrome Prospect Auto Refractor #CPA-FA /499",
+      "year": 2020,
+      "publisher": "Bowman Chrome",
+      "manufacturer": "Bowman Chrome",
+      "cardNumber": "CPA-FA",
+      "team": "New York Mets",
+      "sport": "Baseball",
+      "position": "Catcher",
+      "status": "Graded",
+      "grade": "PSA 10 Gem Mint",
+      "cert": "74955875",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": false,
+      "significance": "1st Bowman Chrome prospect autograph refractor, serial-numbered /499",
+      "priority": "High",
+      "recordUrl": "item-c-bb-0014.html",
+      "slug": "item-c-bb-0014.html",
+      "photos": {
+        "front": "assets/cards/bb-0014-front.jpg",
+        "back": "assets/cards/bb-0014-back.jpg"
+      },
+      "valuation": {
+        "low": 275,
+        "high": 375,
+        "currency": "USD",
+        "type": "working_market_range_2026-08"
+      },
+      "note": "Actual graded card photographed front and back. Working market range based on recent comparable sales; not a formal appraisal."
+    },
+    {
+      "sku": "C-BB-0015",
+      "title": "James Wood",
+      "issue": "2022 Bowman Chrome Prospects Blue Refractor #BCP-108 /150",
+      "year": 2022,
+      "publisher": "Bowman Chrome",
+      "manufacturer": "Bowman Chrome",
+      "cardNumber": "BCP-108",
+      "team": "San Diego Padres",
+      "sport": "Baseball",
+      "position": "Outfield",
+      "status": "Graded",
+      "grade": "PSA/DNA Authentic \u00b7 Auto 10",
+      "cert": "82954401",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": false,
+      "significance": "1st Bowman Chrome blue refractor /150 with authenticated autograph graded 10",
+      "priority": "High",
+      "recordUrl": "item-c-bb-0015.html",
+      "slug": "item-c-bb-0015.html",
+      "photos": {
+        "front": "assets/cards/bb-0015-front.jpg",
+        "back": "assets/cards/bb-0015-back.jpg"
+      },
+      "valuation": {
+        "low": 175,
+        "high": 300,
+        "currency": "USD",
+        "type": "working_market_range_2026-08"
+      },
+      "note": "Actual graded card photographed front and back. Working market range based on recent comparable sales; not a formal appraisal."
+    },
+    {
+      "sku": "C-BB-0016",
+      "title": "Victor Wembanyama",
+      "issue": "2023-24 Panini Prizm Ice #136",
+      "year": 2023,
+      "publisher": "Panini Prizm",
+      "manufacturer": "Panini Prizm",
+      "cardNumber": "136",
+      "team": "San Antonio Spurs",
+      "sport": "Basketball",
+      "position": "Center / Forward",
+      "status": "Graded",
+      "grade": "PSA 10 Gem Mint",
+      "cert": "92661964",
+      "category": "Basketball Cards",
+      "rookie": true,
+      "hallOfFame": false,
+      "significance": "Prizm Ice rookie card; PSA 10",
+      "priority": "Very High",
+      "recordUrl": "item-c-bb-0016.html",
+      "slug": "item-c-bb-0016.html",
+      "photos": {
+        "front": "assets/cards/bb-0016-front.jpg",
+        "back": "assets/cards/bb-0016-back.jpg"
+      },
+      "valuation": {
+        "low": 1300,
+        "high": 1700,
+        "currency": "USD",
+        "type": "working_market_range_2026-08"
+      },
+      "note": "Actual graded card photographed front and back. Working market range based on recent comparable sales; not a formal appraisal."
+    },
+    {
+      "sku": "C-BB-0017",
+      "title": "Vladimir Guerrero Jr.",
+      "issue": "2016 Bowman Chrome Prospects #BCP55",
+      "year": 2016,
+      "publisher": "Bowman Chrome",
+      "manufacturer": "Bowman Chrome",
+      "cardNumber": "BCP55",
+      "team": "Toronto Blue Jays",
+      "sport": "Baseball",
+      "position": "Outfield",
+      "status": "Graded",
+      "grade": "PSA 10 Gem Mint",
+      "cert": "61827611",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": false,
+      "significance": "1st Bowman Chrome prospect; PSA 10",
+      "priority": "High",
+      "recordUrl": "item-c-bb-0017.html",
+      "slug": "item-c-bb-0017.html",
+      "photos": {
+        "front": "assets/cards/bb-0017-front.jpg",
+        "back": "assets/cards/bb-0017-back.jpg"
+      },
+      "valuation": {
+        "low": 60,
+        "high": 90,
+        "currency": "USD",
+        "type": "working_market_range_2026-08"
+      },
+      "note": "Actual graded card photographed front and back. Working market range based on recent comparable sales; not a formal appraisal."
+    },
+    {
+      "sku": "C-BB-0018",
+      "title": "Nolan McLean",
+      "issue": "2023 Bowman Draft Chrome Prospect Auto Purple Refractor #CDA-NM /250",
+      "year": 2023,
+      "publisher": "Bowman Draft",
+      "manufacturer": "Bowman Draft",
+      "cardNumber": "CDA-NM",
+      "team": "New York Mets",
+      "sport": "Baseball",
+      "position": "Pitcher / Outfielder",
+      "status": "Graded",
+      "grade": "PSA 10 Gem Mint",
+      "cert": "117522933",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": false,
+      "significance": "1st Bowman Chrome prospect autograph purple refractor, serial-numbered /250",
+      "priority": "High",
+      "recordUrl": "item-c-bb-0018.html",
+      "slug": "item-c-bb-0018.html",
+      "photos": {
+        "front": "assets/cards/bb-0018-front.jpg",
+        "back": "assets/cards/bb-0018-back.jpg"
+      },
+      "valuation": {
+        "low": 350,
+        "high": 600,
+        "currency": "USD",
+        "type": "working_market_range_2026-08"
+      },
+      "note": "Actual graded card photographed front and back. Working market range based on recent comparable sales; not a formal appraisal."
+    },
+    {
+      "sku": "C-BB-0019",
+      "title": "Junior Caminero",
+      "issue": "2023 Bowman Chrome Prospects Purple Refractor #BCP-61 /250",
+      "year": 2023,
+      "publisher": "Bowman Chrome",
+      "manufacturer": "Bowman Chrome",
+      "cardNumber": "BCP-61",
+      "team": "Tampa Bay Rays",
+      "sport": "Baseball",
+      "position": "Shortstop",
+      "status": "Graded",
+      "grade": "PSA/DNA Authentic \u00b7 Auto 10",
+      "cert": "76329226",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": false,
+      "significance": "1st Bowman Chrome purple refractor /250 with authenticated autograph graded 10",
+      "priority": "High",
+      "recordUrl": "item-c-bb-0019.html",
+      "slug": "item-c-bb-0019.html",
+      "photos": {
+        "front": "assets/cards/bb-0019-front.jpg",
+        "back": "assets/cards/bb-0019-back.jpg"
+      },
+      "valuation": {
+        "low": 150,
+        "high": 300,
+        "currency": "USD",
+        "type": "working_market_range_2026-08"
+      },
+      "note": "Actual graded card photographed front and back. Working market range based on recent comparable sales; not a formal appraisal."
+    },
+    {
+      "sku": "C-BB-0020",
+      "title": "Francisco Lindor",
+      "issue": "2011 Bowman Chrome Draft Prospect Auto #BCAP-FL",
+      "year": 2011,
+      "publisher": "Bowman Chrome Draft",
+      "manufacturer": "Bowman Chrome Draft",
+      "cardNumber": "BCAP-FL",
+      "team": "Cleveland Indians",
+      "sport": "Baseball",
+      "position": "Shortstop",
+      "status": "Graded",
+      "grade": "PSA 10 Gem Mint \u00b7 Auto 10",
+      "cert": "23120976",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": false,
+      "significance": "1st Bowman Chrome prospect autograph; PSA 10 with Auto 10",
+      "priority": "Very High",
+      "recordUrl": "item-c-bb-0020.html",
+      "slug": "item-c-bb-0020.html",
+      "photos": {
+        "front": "assets/cards/bb-0020-front.jpg",
+        "back": "assets/cards/bb-0020-back.jpg"
+      },
+      "valuation": {
+        "low": 700,
+        "high": 950,
+        "currency": "USD",
+        "type": "working_market_range_2026-08"
+      },
+      "note": "Actual graded card photographed front and back. Working market range based on recent comparable sales; not a formal appraisal."
+    },
+    {
+      "sku": "C-BB-0021",
+      "title": "Mark Vientos",
+      "issue": "2017 Bowman Draft Chrome DP Auto Refractor #CDA-MV /499",
+      "year": 2017,
+      "publisher": "Bowman Draft",
+      "manufacturer": "Bowman Draft",
+      "cardNumber": "CDA-MV",
+      "team": "New York Mets",
+      "sport": "Baseball",
+      "position": "Third Base",
+      "status": "Graded",
+      "grade": "PSA 10 Gem Mint",
+      "cert": "42585102",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": false,
+      "significance": "1st Bowman Chrome draft pick autograph refractor, serial-numbered /499",
+      "priority": "High",
+      "recordUrl": "item-c-bb-0021.html",
+      "slug": "item-c-bb-0021.html",
+      "photos": {
+        "front": "assets/cards/bb-0021-front.jpg",
+        "back": "assets/cards/bb-0021-back.jpg"
+      },
+      "valuation": {
+        "low": 70,
+        "high": 120,
+        "currency": "USD",
+        "type": "working_market_range_2026-08"
+      },
+      "note": "Actual graded card photographed front and back. Working market range based on recent comparable sales; not a formal appraisal."
+    },
+    {
+      "sku": "C-BK-0001",
+      "title": "Michael Jordan",
+      "issue": "1991 Fleer #29",
+      "year": 1991,
+      "publisher": "Fleer",
+      "manufacturer": "Fleer",
+      "cardNumber": "29",
+      "team": "Chicago Bulls",
+      "sport": "Basketball",
+      "position": "Guard",
+      "status": "Raw",
+      "grade": "Raw",
+      "category": "Basketball Cards",
+      "rookie": false,
+      "hallOfFame": true,
+      "significance": "Hall of Fame Michael Jordan issue",
+      "priority": "High",
+      "recordUrl": "item-c-bk-0001.html",
+      "slug": "item-c-bk-0001.html",
+      "photos": {
+        "front": "assets/cards/bk-0001-front.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "TBD"
+      },
+      "note": "Actual card photographed for the KAC Vault. Raw/ungraded; value left TBD pending market review."
+    },
+    {
+      "sku": "C-BK-0002",
+      "title": "Michael Jordan",
+      "issue": "1990-91 SkyBox #41",
+      "year": 1990,
+      "publisher": "SkyBox",
+      "manufacturer": "SkyBox",
+      "cardNumber": "41",
+      "team": "Chicago Bulls",
+      "sport": "Basketball",
+      "position": "Guard",
+      "status": "Raw",
+      "grade": "Raw",
+      "category": "Basketball Cards",
+      "rookie": false,
+      "hallOfFame": true,
+      "significance": "Early SkyBox Michael Jordan issue",
+      "priority": "High",
+      "recordUrl": "item-c-bk-0002.html",
+      "slug": "item-c-bk-0002.html",
+      "photos": {
+        "front": "assets/cards/bk-0002-front.jpg",
+        "back": "assets/cards/bk-0002-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "TBD"
+      },
+      "note": "Actual card photographed for the KAC Vault. Raw/ungraded; value left TBD pending market review."
+    },
+    {
+      "sku": "C-BK-0003",
+      "title": "Michael Jordan",
+      "issue": "1993-94 Upper Deck Breakaway Threats #438",
+      "year": 1993,
+      "publisher": "Upper Deck",
+      "manufacturer": "Upper Deck",
+      "cardNumber": "438",
+      "team": "Chicago Bulls",
+      "sport": "Basketball",
+      "position": "Guard",
+      "status": "Raw",
+      "grade": "Raw",
+      "category": "Basketball Cards",
+      "rookie": false,
+      "hallOfFame": true,
+      "significance": "Breakaway Threats Michael Jordan insert/subset card",
+      "priority": "High",
+      "recordUrl": "item-c-bk-0003.html",
+      "slug": "item-c-bk-0003.html",
+      "photos": {
+        "front": "assets/cards/bk-0003-front.jpg",
+        "back": "assets/cards/bk-0003-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "TBD"
+      },
+      "note": "Actual card photographed for the KAC Vault. Raw/ungraded; value left TBD pending market review."
+    },
+    {
+      "sku": "C-BK-0004",
+      "title": "Michael Jordan",
+      "issue": "1990-91 SkyBox #41",
+      "year": 1990,
+      "publisher": "SkyBox",
+      "manufacturer": "SkyBox",
+      "cardNumber": "41",
+      "team": "Chicago Bulls",
+      "sport": "Basketball",
+      "position": "Guard",
+      "status": "Raw",
+      "grade": "Raw",
+      "category": "Basketball Cards",
+      "rookie": false,
+      "hallOfFame": true,
+      "significance": "Second physical copy; separately inventoried",
+      "priority": "High",
+      "recordUrl": "item-c-bk-0004.html",
+      "slug": "item-c-bk-0004.html",
+      "photos": {
+        "front": "assets/cards/bk-0004-front.jpg",
+        "back": "assets/cards/bk-0004-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "TBD"
+      },
+      "note": "Actual card photographed for the KAC Vault. Raw/ungraded; value left TBD pending market review."
+    },
+    {
+      "sku": "C-BK-0005",
+      "title": "Michael Jordan",
+      "issue": "1993-94 Upper Deck Skylights #466",
+      "year": 1993,
+      "publisher": "Upper Deck",
+      "manufacturer": "Upper Deck",
+      "cardNumber": "466",
+      "team": "Chicago Bulls",
+      "sport": "Basketball",
+      "position": "Guard",
+      "status": "Raw",
+      "grade": "Raw",
+      "category": "Basketball Cards",
+      "rookie": false,
+      "hallOfFame": true,
+      "significance": "Skylights Michael Jordan subset card",
+      "priority": "High",
+      "recordUrl": "item-c-bk-0005.html",
+      "slug": "item-c-bk-0005.html",
+      "photos": {
+        "front": "assets/cards/bk-0005-front.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "TBD"
+      },
+      "note": "Actual card photographed for the KAC Vault. Raw/ungraded; value left TBD pending market review."
+    },
+    {
+      "sku": "C-BK-0006",
+      "title": "Michael Jordan",
+      "issue": "1993-94 Upper Deck Skylights #466",
+      "year": 1993,
+      "publisher": "Upper Deck",
+      "manufacturer": "Upper Deck",
+      "cardNumber": "466",
+      "team": "Chicago Bulls",
+      "sport": "Basketball",
+      "position": "Guard",
+      "status": "Raw",
+      "grade": "Raw",
+      "category": "Basketball Cards",
+      "rookie": false,
+      "hallOfFame": true,
+      "significance": "Second physical copy; separately inventoried",
+      "priority": "High",
+      "recordUrl": "item-c-bk-0006.html",
+      "slug": "item-c-bk-0006.html",
+      "photos": {
+        "front": "assets/cards/bk-0006-front.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "TBD"
+      },
+      "note": "Actual card photographed for the KAC Vault. Raw/ungraded; value left TBD pending market review."
+    },
+    {
+      "sku": "C-BK-0009",
+      "title": "David Robinson",
+      "issue": "1989-90 NBA Hoops #138",
+      "year": 1989,
+      "publisher": "NBA Hoops",
+      "manufacturer": "NBA Hoops",
+      "cardNumber": "138",
+      "team": "San Antonio Spurs",
+      "sport": "Basketball",
+      "position": "Center",
+      "status": "Raw",
+      "grade": "Raw",
+      "category": "Basketball Cards",
+      "rookie": true,
+      "hallOfFame": true,
+      "significance": "David Robinson rookie card",
+      "priority": "High",
+      "recordUrl": "item-c-bk-0009.html",
+      "slug": "item-c-bk-0009.html",
+      "photos": {
+        "front": "assets/cards/bk-0009-front.jpg",
+        "back": "assets/cards/bk-0009-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "TBD"
+      },
+      "note": "Actual card photographed for the KAC Vault. Raw/ungraded; value left TBD pending market review."
+    },
+    {
+      "sku": "C-BK-0010",
+      "title": "Hakeem Olajuwon",
+      "issue": "1989-90 NBA Hoops #180",
+      "year": 1989,
+      "publisher": "NBA Hoops",
+      "manufacturer": "NBA Hoops",
+      "cardNumber": "180",
+      "team": "Houston Rockets",
+      "sport": "Basketball",
+      "position": "Center",
+      "status": "Raw",
+      "grade": "Raw",
+      "category": "Basketball Cards",
+      "rookie": false,
+      "hallOfFame": true,
+      "significance": "Hall of Fame Hakeem Olajuwon issue",
+      "priority": "Medium",
+      "recordUrl": "item-c-bk-0010.html",
+      "slug": "item-c-bk-0010.html",
+      "photos": {
+        "front": "assets/cards/bk-0010-front.jpg",
+        "back": "assets/cards/bk-0010-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "TBD"
+      },
+      "note": "Actual card photographed for the KAC Vault. Raw/ungraded; value left TBD pending market review."
+    },
+    {
+      "sku": "C-BK-0011",
+      "title": "David Robinson",
+      "issue": "1989-90 NBA Hoops #138",
+      "year": 1989,
+      "publisher": "NBA Hoops",
+      "manufacturer": "NBA Hoops",
+      "cardNumber": "138",
+      "team": "San Antonio Spurs",
+      "sport": "Basketball",
+      "position": "Center",
+      "status": "Raw",
+      "grade": "Raw",
+      "category": "Basketball Cards",
+      "rookie": true,
+      "hallOfFame": true,
+      "significance": "Second physical copy of David Robinson rookie; separately inventoried",
+      "priority": "High",
+      "recordUrl": "item-c-bk-0011.html",
+      "slug": "item-c-bk-0011.html",
+      "photos": {
+        "front": "assets/cards/bk-0011-front.jpg",
+        "back": "assets/cards/bk-0011-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "TBD"
+      },
+      "note": "Actual card photographed for the KAC Vault. Raw/ungraded; value left TBD pending market review."
+    }
+  ]
+};

@@ -1,12 +1,9 @@
 {
   "schemaVersion": "1.0",
-  "siteVersion": "11.5",
+  "siteVersion": "11.6",
   "collection": "KAC Vault",
   "canonicalDomain": "https://kacvault.com",
-  "notes": {
-    "skuPolicy": "SKU is permanent and should never be reassigned.",
-    "valuation": "Working catalog references, not formal appraisals."
-  },
+  "notes": "KAC Vault v11.6 \u2014 adds basketball card collection and portrait-oriented card fronts.",
   "items": [
     {
       "sku": "C-0001",
@@ -1564,6 +1561,291 @@
         "type": "working_market_range_2026-08"
       },
       "note": "Actual graded card photographed front and back. Working market range based on recent comparable sales; not a formal appraisal."
+    },
+    {
+      "sku": "C-BK-0001",
+      "title": "Michael Jordan",
+      "issue": "1991 Fleer #29",
+      "year": 1991,
+      "publisher": "Fleer",
+      "manufacturer": "Fleer",
+      "cardNumber": "29",
+      "team": "Chicago Bulls",
+      "sport": "Basketball",
+      "position": "Guard",
+      "status": "Raw",
+      "grade": "Raw",
+      "category": "Basketball Cards",
+      "rookie": false,
+      "hallOfFame": true,
+      "significance": "Hall of Fame Michael Jordan issue",
+      "priority": "High",
+      "recordUrl": "item-c-bk-0001.html",
+      "slug": "item-c-bk-0001.html",
+      "photos": {
+        "front": "assets/cards/bk-0001-front.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "TBD"
+      },
+      "note": "Actual card photographed for the KAC Vault. Raw/ungraded; value left TBD pending market review."
+    },
+    {
+      "sku": "C-BK-0002",
+      "title": "Michael Jordan",
+      "issue": "1990-91 SkyBox #41",
+      "year": 1990,
+      "publisher": "SkyBox",
+      "manufacturer": "SkyBox",
+      "cardNumber": "41",
+      "team": "Chicago Bulls",
+      "sport": "Basketball",
+      "position": "Guard",
+      "status": "Raw",
+      "grade": "Raw",
+      "category": "Basketball Cards",
+      "rookie": false,
+      "hallOfFame": true,
+      "significance": "Early SkyBox Michael Jordan issue",
+      "priority": "High",
+      "recordUrl": "item-c-bk-0002.html",
+      "slug": "item-c-bk-0002.html",
+      "photos": {
+        "front": "assets/cards/bk-0002-front.jpg",
+        "back": "assets/cards/bk-0002-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "TBD"
+      },
+      "note": "Actual card photographed for the KAC Vault. Raw/ungraded; value left TBD pending market review."
+    },
+    {
+      "sku": "C-BK-0003",
+      "title": "Michael Jordan",
+      "issue": "1993-94 Upper Deck Breakaway Threats #438",
+      "year": 1993,
+      "publisher": "Upper Deck",
+      "manufacturer": "Upper Deck",
+      "cardNumber": "438",
+      "team": "Chicago Bulls",
+      "sport": "Basketball",
+      "position": "Guard",
+      "status": "Raw",
+      "grade": "Raw",
+      "category": "Basketball Cards",
+      "rookie": false,
+      "hallOfFame": true,
+      "significance": "Breakaway Threats Michael Jordan insert/subset card",
+      "priority": "High",
+      "recordUrl": "item-c-bk-0003.html",
+      "slug": "item-c-bk-0003.html",
+      "photos": {
+        "front": "assets/cards/bk-0003-front.jpg",
+        "back": "assets/cards/bk-0003-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "TBD"
+      },
+      "note": "Actual card photographed for the KAC Vault. Raw/ungraded; value left TBD pending market review."
+    },
+    {
+      "sku": "C-BK-0004",
+      "title": "Michael Jordan",
+      "issue": "1990-91 SkyBox #41",
+      "year": 1990,
+      "publisher": "SkyBox",
+      "manufacturer": "SkyBox",
+      "cardNumber": "41",
+      "team": "Chicago Bulls",
+      "sport": "Basketball",
+      "position": "Guard",
+      "status": "Raw",
+      "grade": "Raw",
+      "category": "Basketball Cards",
+      "rookie": false,
+      "hallOfFame": true,
+      "significance": "Second physical copy; separately inventoried",
+      "priority": "High",
+      "recordUrl": "item-c-bk-0004.html",
+      "slug": "item-c-bk-0004.html",
+      "photos": {
+        "front": "assets/cards/bk-0004-front.jpg",
+        "back": "assets/cards/bk-0004-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "TBD"
+      },
+      "note": "Actual card photographed for the KAC Vault. Raw/ungraded; value left TBD pending market review."
+    },
+    {
+      "sku": "C-BK-0005",
+      "title": "Michael Jordan",
+      "issue": "1993-94 Upper Deck Skylights #466",
+      "year": 1993,
+      "publisher": "Upper Deck",
+      "manufacturer": "Upper Deck",
+      "cardNumber": "466",
+      "team": "Chicago Bulls",
+      "sport": "Basketball",
+      "position": "Guard",
+      "status": "Raw",
+      "grade": "Raw",
+      "category": "Basketball Cards",
+      "rookie": false,
+      "hallOfFame": true,
+      "significance": "Skylights Michael Jordan subset card",
+      "priority": "High",
+      "recordUrl": "item-c-bk-0005.html",
+      "slug": "item-c-bk-0005.html",
+      "photos": {
+        "front": "assets/cards/bk-0005-front.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "TBD"
+      },
+      "note": "Actual card photographed for the KAC Vault. Raw/ungraded; value left TBD pending market review."
+    },
+    {
+      "sku": "C-BK-0006",
+      "title": "Michael Jordan",
+      "issue": "1993-94 Upper Deck Skylights #466",
+      "year": 1993,
+      "publisher": "Upper Deck",
+      "manufacturer": "Upper Deck",
+      "cardNumber": "466",
+      "team": "Chicago Bulls",
+      "sport": "Basketball",
+      "position": "Guard",
+      "status": "Raw",
+      "grade": "Raw",
+      "category": "Basketball Cards",
+      "rookie": false,
+      "hallOfFame": true,
+      "significance": "Second physical copy; separately inventoried",
+      "priority": "High",
+      "recordUrl": "item-c-bk-0006.html",
+      "slug": "item-c-bk-0006.html",
+      "photos": {
+        "front": "assets/cards/bk-0006-front.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "TBD"
+      },
+      "note": "Actual card photographed for the KAC Vault. Raw/ungraded; value left TBD pending market review."
+    },
+    {
+      "sku": "C-BK-0009",
+      "title": "David Robinson",
+      "issue": "1989-90 NBA Hoops #138",
+      "year": 1989,
+      "publisher": "NBA Hoops",
+      "manufacturer": "NBA Hoops",
+      "cardNumber": "138",
+      "team": "San Antonio Spurs",
+      "sport": "Basketball",
+      "position": "Center",
+      "status": "Raw",
+      "grade": "Raw",
+      "category": "Basketball Cards",
+      "rookie": true,
+      "hallOfFame": true,
+      "significance": "David Robinson rookie card",
+      "priority": "High",
+      "recordUrl": "item-c-bk-0009.html",
+      "slug": "item-c-bk-0009.html",
+      "photos": {
+        "front": "assets/cards/bk-0009-front.jpg",
+        "back": "assets/cards/bk-0009-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "TBD"
+      },
+      "note": "Actual card photographed for the KAC Vault. Raw/ungraded; value left TBD pending market review."
+    },
+    {
+      "sku": "C-BK-0010",
+      "title": "Hakeem Olajuwon",
+      "issue": "1989-90 NBA Hoops #180",
+      "year": 1989,
+      "publisher": "NBA Hoops",
+      "manufacturer": "NBA Hoops",
+      "cardNumber": "180",
+      "team": "Houston Rockets",
+      "sport": "Basketball",
+      "position": "Center",
+      "status": "Raw",
+      "grade": "Raw",
+      "category": "Basketball Cards",
+      "rookie": false,
+      "hallOfFame": true,
+      "significance": "Hall of Fame Hakeem Olajuwon issue",
+      "priority": "Medium",
+      "recordUrl": "item-c-bk-0010.html",
+      "slug": "item-c-bk-0010.html",
+      "photos": {
+        "front": "assets/cards/bk-0010-front.jpg",
+        "back": "assets/cards/bk-0010-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "TBD"
+      },
+      "note": "Actual card photographed for the KAC Vault. Raw/ungraded; value left TBD pending market review."
+    },
+    {
+      "sku": "C-BK-0011",
+      "title": "David Robinson",
+      "issue": "1989-90 NBA Hoops #138",
+      "year": 1989,
+      "publisher": "NBA Hoops",
+      "manufacturer": "NBA Hoops",
+      "cardNumber": "138",
+      "team": "San Antonio Spurs",
+      "sport": "Basketball",
+      "position": "Center",
+      "status": "Raw",
+      "grade": "Raw",
+      "category": "Basketball Cards",
+      "rookie": true,
+      "hallOfFame": true,
+      "significance": "Second physical copy of David Robinson rookie; separately inventoried",
+      "priority": "High",
+      "recordUrl": "item-c-bk-0011.html",
+      "slug": "item-c-bk-0011.html",
+      "photos": {
+        "front": "assets/cards/bk-0011-front.jpg",
+        "back": "assets/cards/bk-0011-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "TBD"
+      },
+      "note": "Actual card photographed for the KAC Vault. Raw/ungraded; value left TBD pending market review."
     }
   ]
 }
