@@ -14,7 +14,9 @@
   function itemSearchText(x) {
     return [
       x.sku, x.category, x.title, x.issue, x.year, x.publisher, x.status,
-      x.grade, x.significance, x.note, x.creators, x.cert
+      x.grade, x.significance, x.note, x.creators, x.cert,
+      x.player, x.team, x.manufacturer, x.cardNumber, x.sport, x.position,
+      x.rookie ? 'rookie rookie card' : '', x.hallOfFame ? 'hall of fame hof' : ''
     ].filter(Boolean).join(' ').toLowerCase();
   }
 
@@ -142,6 +144,12 @@
     fillSelect('publisher', [...new Set(items.map(x=>x.publisher).filter(Boolean))].sort());
     fillSelect('status', [...new Set(items.map(x=>x.status).filter(Boolean))].sort());
     fillSelect('year', [...new Set(items.map(x=>x.year).filter(Boolean))].sort((a,b)=>b-a));
+
+    const params = new URLSearchParams(window.location.search);
+    const presetCategory = params.get('category');
+    const presetSearch = params.get('search');
+    if (presetCategory && [...$('category').options].some(o => o.value === presetCategory)) $('category').value = presetCategory;
+    if (presetSearch) $('search').value = presetSearch;
 
     ['search','category','publisher','status','year','value','sort']
       .forEach(id => $(id).addEventListener(id === 'search' ? 'input' : 'change', render));

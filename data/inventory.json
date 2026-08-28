@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "siteVersion": "8.6",
+  "siteVersion": "11.2",
   "collection": "KAC Vault",
   "canonicalDomain": "https://kacvault.com",
   "notes": {
@@ -884,6 +884,262 @@
         "currency": "USD",
         "type": "working_catalog_range"
       }
+    },
+    {
+      "sku": "C-BB-0001",
+      "title": "Darryl Strawberry",
+      "issue": "1984 Fleer #599",
+      "year": 1984,
+      "publisher": "Fleer",
+      "manufacturer": "Fleer",
+      "cardNumber": "599",
+      "team": "New York Mets",
+      "sport": "Baseball",
+      "position": "Outfield",
+      "status": "Raw",
+      "grade": "",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": false,
+      "significance": "Early-career Darryl Strawberry Mets card",
+      "priority": "Medium",
+      "recordUrl": "item-c-bb-0001.html",
+      "slug": "item-c-bb-0001.html",
+      "photos": {
+        "front": "assets/cards/bb-0001-front.jpg",
+        "back": "assets/cards/bb-0001-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "pending"
+      },
+      "note": "Actual card photographed front and back."
+    },
+    {
+      "sku": "C-BB-0002",
+      "title": "Darryl Strawberry",
+      "issue": "1984 Topps #182",
+      "year": 1984,
+      "publisher": "Topps",
+      "manufacturer": "Topps",
+      "cardNumber": "182",
+      "team": "New York Mets",
+      "sport": "Baseball",
+      "position": "Outfield",
+      "status": "Raw",
+      "grade": "",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": false,
+      "significance": "Early-career Darryl Strawberry Mets card",
+      "priority": "Medium",
+      "recordUrl": "item-c-bb-0002.html",
+      "slug": "item-c-bb-0002.html",
+      "photos": {
+        "front": "assets/cards/bb-0002-front.jpg",
+        "back": "assets/cards/bb-0002-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "pending"
+      },
+      "note": "Displayed in a rookie-card holder; 1984 Topps is an early-career card rather than Strawberry’s generally recognized true rookie issue."
+    },
+    {
+      "sku": "C-BB-0003",
+      "title": "Rickey Henderson",
+      "issue": "1980 Topps #482",
+      "year": 1980,
+      "publisher": "Topps",
+      "manufacturer": "Topps",
+      "cardNumber": "482",
+      "team": "Oakland Athletics",
+      "sport": "Baseball",
+      "position": "Outfield",
+      "status": "Raw",
+      "grade": "",
+      "category": "Baseball Cards",
+      "rookie": true,
+      "hallOfFame": true,
+      "significance": "Rickey Henderson rookie card",
+      "priority": "Critical",
+      "recordUrl": "item-c-bb-0003.html",
+      "slug": "item-c-bb-0003.html",
+      "photos": {
+        "front": "assets/cards/bb-0003-front.jpg",
+        "back": "assets/cards/bb-0003-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "pending"
+      },
+      "note": "Key card. Actual copy photographed front and back; grading review recommended."
+    },
+    {
+      "sku": "C-BB-0004",
+      "title": "Rickey Henderson",
+      "issue": "1980 Topps #482",
+      "year": 1980,
+      "publisher": "Topps",
+      "manufacturer": "Topps",
+      "cardNumber": "482",
+      "team": "Oakland Athletics",
+      "sport": "Baseball",
+      "position": "Outfield",
+      "status": "Raw",
+      "grade": "",
+      "category": "Baseball Cards",
+      "rookie": true,
+      "hallOfFame": true,
+      "significance": "Rickey Henderson rookie card — second copy",
+      "priority": "Critical",
+      "recordUrl": "item-c-bb-0004.html",
+      "slug": "item-c-bb-0004.html",
+      "photos": {
+        "front": "assets/cards/bb-0004-front.jpg",
+        "back": "assets/cards/bb-0004-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "pending"
+      },
+      "note": "Second physical copy. Kept under a separate permanent SKU for independent condition, grading and location tracking."
+    },
+    {
+      "sku": "C-BB-0005",
+      "title": "Bo Jackson",
+      "issue": "1987 Topps Future Stars #170",
+      "year": 1987,
+      "publisher": "Topps",
+      "manufacturer": "Topps",
+      "cardNumber": "170",
+      "team": "Kansas City Royals",
+      "sport": "Baseball",
+      "position": "Outfield",
+      "status": "Raw",
+      "grade": "",
+      "category": "Baseball Cards",
+      "rookie": true,
+      "hallOfFame": false,
+      "significance": "Bo Jackson Future Stars rookie card",
+      "priority": "High",
+      "recordUrl": "item-c-bb-0005.html",
+      "slug": "item-c-bb-0005.html",
+      "photos": {
+        "front": "assets/cards/bb-0005-front.jpg",
+        "back": "assets/cards/bb-0005-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "pending"
+      },
+      "note": "Key early Bo Jackson card. Actual copy photographed front and back."
+    },
+    {
+      "sku": "C-BB-0006",
+      "title": "Bo Jackson",
+      "issue": "1988 Topps #750",
+      "year": 1988,
+      "publisher": "Topps",
+      "manufacturer": "Topps",
+      "cardNumber": "750",
+      "team": "Kansas City Royals",
+      "sport": "Baseball",
+      "position": "Outfield",
+      "status": "Raw",
+      "grade": "",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": false,
+      "significance": "Early-career Bo Jackson Royals card",
+      "priority": "Medium",
+      "recordUrl": "item-c-bb-0006.html",
+      "slug": "item-c-bb-0006.html",
+      "photos": {
+        "front": "assets/cards/bb-0006-front.jpg",
+        "back": "assets/cards/bb-0006-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "pending"
+      },
+      "note": "Actual card photographed front and back."
+    },
+    {
+      "sku": "C-BB-0007",
+      "title": "Tony Gwynn",
+      "issue": "1984 Fleer #301",
+      "year": 1984,
+      "publisher": "Fleer",
+      "manufacturer": "Fleer",
+      "cardNumber": "301",
+      "team": "San Diego Padres",
+      "sport": "Baseball",
+      "position": "Outfield",
+      "status": "Raw",
+      "grade": "",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": true,
+      "significance": "Early Tony Gwynn card; Hall of Fame player",
+      "priority": "High",
+      "recordUrl": "item-c-bb-0007.html",
+      "slug": "item-c-bb-0007.html",
+      "photos": {
+        "front": "assets/cards/bb-0007-front.jpg",
+        "back": "assets/cards/bb-0007-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "pending"
+      },
+      "note": "Actual card photographed front and back."
+    },
+    {
+      "sku": "C-BB-0008",
+      "title": "Bo Jackson",
+      "issue": "1988 Topps #501",
+      "year": 1988,
+      "publisher": "Topps",
+      "manufacturer": "Topps",
+      "cardNumber": "501",
+      "team": "Kansas City Royals",
+      "sport": "Baseball",
+      "position": "Outfield",
+      "status": "Raw",
+      "grade": "",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": false,
+      "significance": "Early-career Bo Jackson Royals card",
+      "priority": "Medium",
+      "recordUrl": "item-c-bb-0008.html",
+      "slug": "item-c-bb-0008.html",
+      "photos": {
+        "front": "assets/cards/bb-0008-front.jpg",
+        "back": "assets/cards/bb-0008-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "pending"
+      },
+      "note": "Actual card photographed front and back."
     }
   ]
 }
