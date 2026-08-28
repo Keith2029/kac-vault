@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "siteVersion": "11.2",
+  "siteVersion": "11.5",
   "collection": "KAC Vault",
   "canonicalDomain": "https://kacvault.com",
   "notes": {
@@ -176,7 +176,7 @@
       "publisher": "DC",
       "status": "Raw",
       "grade": "",
-      "significance": "Knightfall — Breaking of the Batman",
+      "significance": "Knightfall \u2014 Breaking of the Batman",
       "priority": "Low",
       "slug": "item-c-0009.html",
       "category": "Comics",
@@ -758,7 +758,7 @@
         "back": "assets/c-0036-back-v2.jpg"
       },
       "note": "First solo Wolverine comic; Yukio cameo on last page",
-      "creators": "Chris Claremont story · Frank Miller & Joe Rubinstein cover/art",
+      "creators": "Chris Claremont story \u00b7 Frank Miller & Joe Rubinstein cover/art",
       "slug": "item-c-0036.html",
       "category": "Comics",
       "recordUrl": "item-c-0036.html",
@@ -811,7 +811,7 @@
       "cert": "0952942018",
       "pages": "White Pages",
       "note": "First issue of the ongoing Wolverine series; 1st Wolverine as Patch",
-      "creators": "Chris Claremont story · John Buscema & Al Williamson art · John Buscema cover",
+      "creators": "Chris Claremont story \u00b7 John Buscema & Al Williamson art \u00b7 John Buscema cover",
       "photos": {
         "front": "assets/c-0038-front-v2.jpg",
         "label": "assets/c-0038-label-v2.jpg",
@@ -840,7 +840,7 @@
       "cert": "1224637011",
       "pages": "White Pages",
       "note": "Doomsday cameo on last page",
-      "creators": "Louise Simonson story · Jon Bogdanove & Bob McLeod art · Jon Bogdanove & Dennis Janke cover",
+      "creators": "Louise Simonson story \u00b7 Jon Bogdanove & Bob McLeod art \u00b7 Jon Bogdanove & Dennis Janke cover",
       "photos": {
         "front": "assets/c-0039-front-v2.jpg",
         "label": "assets/c-0039-label-v2.jpg",
@@ -869,7 +869,7 @@
       "cert": "0609939001",
       "pages": "White Pages",
       "note": "Sabretooth appearance; Wolverine pin-up on back cover",
-      "creators": "Chris Claremont story · John Buscema & Bill Sienkiewicz art · Bill Sienkiewicz cover",
+      "creators": "Chris Claremont story \u00b7 John Buscema & Bill Sienkiewicz art \u00b7 Bill Sienkiewicz cover",
       "photos": {
         "front": "assets/c-0040-front-v2.jpg",
         "label": "assets/c-0040-label-v2.jpg",
@@ -947,7 +947,7 @@
         "currency": "USD",
         "type": "pending"
       },
-      "note": "Displayed in a rookie-card holder; 1984 Topps is an early-career card rather than Strawberry’s generally recognized true rookie issue."
+      "note": "Displayed in a rookie-card holder; 1984 Topps is an early-career card rather than Strawberry\u2019s generally recognized true rookie issue."
     },
     {
       "sku": "C-BB-0003",
@@ -997,7 +997,7 @@
       "category": "Baseball Cards",
       "rookie": true,
       "hallOfFame": true,
-      "significance": "Rickey Henderson rookie card — second copy",
+      "significance": "Rickey Henderson rookie card \u2014 second copy",
       "priority": "Critical",
       "recordUrl": "item-c-bb-0004.html",
       "slug": "item-c-bb-0004.html",
@@ -1140,6 +1140,430 @@
         "type": "pending"
       },
       "note": "Actual card photographed front and back."
+    },
+    {
+      "sku": "C-BB-0009",
+      "title": "Frank Thomas",
+      "issue": "1990 Score #663",
+      "year": 1990,
+      "publisher": "Score",
+      "manufacturer": "Score",
+      "cardNumber": "663",
+      "team": "Chicago White Sox",
+      "sport": "Baseball",
+      "position": "First Base",
+      "status": "Raw",
+      "grade": "",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": true,
+      "significance": "1st Round Pick card; early Frank Thomas issue",
+      "priority": "High",
+      "recordUrl": "item-c-bb-0009.html",
+      "slug": "item-c-bb-0009.html",
+      "photos": {
+        "front": "assets/cards/bb-0009-front.jpg",
+        "back": "assets/cards/bb-0009-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "pending"
+      },
+      "note": "Actual card photographed front and back."
+    },
+    {
+      "sku": "C-BB-0010",
+      "title": "Don Mattingly",
+      "issue": "1984 O-Pee-Chee #8",
+      "year": 1984,
+      "publisher": "O-Pee-Chee",
+      "manufacturer": "O-Pee-Chee",
+      "cardNumber": "8",
+      "team": "New York Yankees",
+      "sport": "Baseball",
+      "position": "First Base",
+      "status": "Raw",
+      "grade": "",
+      "category": "Baseball Cards",
+      "rookie": true,
+      "hallOfFame": false,
+      "significance": "O-Pee-Chee Don Mattingly rookie card; grading candidate",
+      "priority": "High",
+      "recordUrl": "item-c-bb-0010.html",
+      "slug": "item-c-bb-0010.html",
+      "photos": {
+        "front": "assets/cards/bb-0010-front.jpg",
+        "back": "assets/cards/bb-0010-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "pending"
+      },
+      "note": "Actual card photographed front and back."
+    },
+    {
+      "sku": "C-BB-0011",
+      "title": "Darryl Strawberry",
+      "issue": "1984 Donruss #68",
+      "year": 1984,
+      "publisher": "Donruss",
+      "manufacturer": "Donruss",
+      "cardNumber": "68",
+      "team": "New York Mets",
+      "sport": "Baseball",
+      "position": "Outfield",
+      "status": "Raw",
+      "grade": "",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": false,
+      "significance": "Early-career Darryl Strawberry card",
+      "priority": "Medium",
+      "recordUrl": "item-c-bb-0011.html",
+      "slug": "item-c-bb-0011.html",
+      "photos": {
+        "front": "assets/cards/bb-0011-front.jpg",
+        "back": "assets/cards/bb-0011-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "pending"
+      },
+      "note": "Actual card photographed front and back."
+    },
+    {
+      "sku": "C-BB-0012",
+      "title": "Darryl Strawberry",
+      "issue": "1984 Topps #182",
+      "year": 1984,
+      "publisher": "Topps",
+      "manufacturer": "Topps",
+      "cardNumber": "182",
+      "team": "New York Mets",
+      "sport": "Baseball",
+      "position": "Outfield",
+      "status": "Raw",
+      "grade": "",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": false,
+      "significance": "Second physical copy; early-career Darryl Strawberry card",
+      "priority": "Medium",
+      "recordUrl": "item-c-bb-0012.html",
+      "slug": "item-c-bb-0012.html",
+      "photos": {
+        "front": "assets/cards/bb-0012-front.jpg",
+        "back": "assets/cards/bb-0012-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "pending"
+      },
+      "note": "Actual card photographed front and back."
+    },
+    {
+      "sku": "C-BB-0013",
+      "title": "Wade Boggs",
+      "issue": "1985 Donruss #172",
+      "year": 1985,
+      "publisher": "Donruss",
+      "manufacturer": "Donruss",
+      "cardNumber": "172",
+      "team": "Boston Red Sox",
+      "sport": "Baseball",
+      "position": "Third Base",
+      "status": "Raw",
+      "grade": "",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": true,
+      "significance": "Early Wade Boggs Hall of Fame card",
+      "priority": "Medium",
+      "recordUrl": "item-c-bb-0013.html",
+      "slug": "item-c-bb-0013.html",
+      "photos": {
+        "front": "assets/cards/bb-0013-front.jpg",
+        "back": "assets/cards/bb-0013-back.jpg"
+      },
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "currency": "USD",
+        "type": "pending"
+      },
+      "note": "Actual card photographed front and back."
+    },
+    {
+      "sku": "C-BB-0014",
+      "title": "Francisco Alvarez",
+      "issue": "2020 Bowman Chrome Prospect Auto Refractor #CPA-FA /499",
+      "year": 2020,
+      "publisher": "Bowman Chrome",
+      "manufacturer": "Bowman Chrome",
+      "cardNumber": "CPA-FA",
+      "team": "New York Mets",
+      "sport": "Baseball",
+      "position": "Catcher",
+      "status": "Graded",
+      "grade": "PSA 10 Gem Mint",
+      "cert": "74955875",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": false,
+      "significance": "1st Bowman Chrome prospect autograph refractor, serial-numbered /499",
+      "priority": "High",
+      "recordUrl": "item-c-bb-0014.html",
+      "slug": "item-c-bb-0014.html",
+      "photos": {
+        "front": "assets/cards/bb-0014-front.jpg",
+        "back": "assets/cards/bb-0014-back.jpg"
+      },
+      "valuation": {
+        "low": 275,
+        "high": 375,
+        "currency": "USD",
+        "type": "working_market_range_2026-08"
+      },
+      "note": "Actual graded card photographed front and back. Working market range based on recent comparable sales; not a formal appraisal."
+    },
+    {
+      "sku": "C-BB-0015",
+      "title": "James Wood",
+      "issue": "2022 Bowman Chrome Prospects Blue Refractor #BCP-108 /150",
+      "year": 2022,
+      "publisher": "Bowman Chrome",
+      "manufacturer": "Bowman Chrome",
+      "cardNumber": "BCP-108",
+      "team": "San Diego Padres",
+      "sport": "Baseball",
+      "position": "Outfield",
+      "status": "Graded",
+      "grade": "PSA/DNA Authentic \u00b7 Auto 10",
+      "cert": "82954401",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": false,
+      "significance": "1st Bowman Chrome blue refractor /150 with authenticated autograph graded 10",
+      "priority": "High",
+      "recordUrl": "item-c-bb-0015.html",
+      "slug": "item-c-bb-0015.html",
+      "photos": {
+        "front": "assets/cards/bb-0015-front.jpg",
+        "back": "assets/cards/bb-0015-back.jpg"
+      },
+      "valuation": {
+        "low": 175,
+        "high": 300,
+        "currency": "USD",
+        "type": "working_market_range_2026-08"
+      },
+      "note": "Actual graded card photographed front and back. Working market range based on recent comparable sales; not a formal appraisal."
+    },
+    {
+      "sku": "C-BB-0016",
+      "title": "Victor Wembanyama",
+      "issue": "2023-24 Panini Prizm Ice #136",
+      "year": 2023,
+      "publisher": "Panini Prizm",
+      "manufacturer": "Panini Prizm",
+      "cardNumber": "136",
+      "team": "San Antonio Spurs",
+      "sport": "Basketball",
+      "position": "Center / Forward",
+      "status": "Graded",
+      "grade": "PSA 10 Gem Mint",
+      "cert": "92661964",
+      "category": "Basketball Cards",
+      "rookie": true,
+      "hallOfFame": false,
+      "significance": "Prizm Ice rookie card; PSA 10",
+      "priority": "Very High",
+      "recordUrl": "item-c-bb-0016.html",
+      "slug": "item-c-bb-0016.html",
+      "photos": {
+        "front": "assets/cards/bb-0016-front.jpg",
+        "back": "assets/cards/bb-0016-back.jpg"
+      },
+      "valuation": {
+        "low": 1300,
+        "high": 1700,
+        "currency": "USD",
+        "type": "working_market_range_2026-08"
+      },
+      "note": "Actual graded card photographed front and back. Working market range based on recent comparable sales; not a formal appraisal."
+    },
+    {
+      "sku": "C-BB-0017",
+      "title": "Vladimir Guerrero Jr.",
+      "issue": "2016 Bowman Chrome Prospects #BCP55",
+      "year": 2016,
+      "publisher": "Bowman Chrome",
+      "manufacturer": "Bowman Chrome",
+      "cardNumber": "BCP55",
+      "team": "Toronto Blue Jays",
+      "sport": "Baseball",
+      "position": "Outfield",
+      "status": "Graded",
+      "grade": "PSA 10 Gem Mint",
+      "cert": "61827611",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": false,
+      "significance": "1st Bowman Chrome prospect; PSA 10",
+      "priority": "High",
+      "recordUrl": "item-c-bb-0017.html",
+      "slug": "item-c-bb-0017.html",
+      "photos": {
+        "front": "assets/cards/bb-0017-front.jpg",
+        "back": "assets/cards/bb-0017-back.jpg"
+      },
+      "valuation": {
+        "low": 60,
+        "high": 90,
+        "currency": "USD",
+        "type": "working_market_range_2026-08"
+      },
+      "note": "Actual graded card photographed front and back. Working market range based on recent comparable sales; not a formal appraisal."
+    },
+    {
+      "sku": "C-BB-0018",
+      "title": "Nolan McLean",
+      "issue": "2023 Bowman Draft Chrome Prospect Auto Purple Refractor #CDA-NM /250",
+      "year": 2023,
+      "publisher": "Bowman Draft",
+      "manufacturer": "Bowman Draft",
+      "cardNumber": "CDA-NM",
+      "team": "New York Mets",
+      "sport": "Baseball",
+      "position": "Pitcher / Outfielder",
+      "status": "Graded",
+      "grade": "PSA 10 Gem Mint",
+      "cert": "117522933",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": false,
+      "significance": "1st Bowman Chrome prospect autograph purple refractor, serial-numbered /250",
+      "priority": "High",
+      "recordUrl": "item-c-bb-0018.html",
+      "slug": "item-c-bb-0018.html",
+      "photos": {
+        "front": "assets/cards/bb-0018-front.jpg",
+        "back": "assets/cards/bb-0018-back.jpg"
+      },
+      "valuation": {
+        "low": 350,
+        "high": 600,
+        "currency": "USD",
+        "type": "working_market_range_2026-08"
+      },
+      "note": "Actual graded card photographed front and back. Working market range based on recent comparable sales; not a formal appraisal."
+    },
+    {
+      "sku": "C-BB-0019",
+      "title": "Junior Caminero",
+      "issue": "2023 Bowman Chrome Prospects Purple Refractor #BCP-61 /250",
+      "year": 2023,
+      "publisher": "Bowman Chrome",
+      "manufacturer": "Bowman Chrome",
+      "cardNumber": "BCP-61",
+      "team": "Tampa Bay Rays",
+      "sport": "Baseball",
+      "position": "Shortstop",
+      "status": "Graded",
+      "grade": "PSA/DNA Authentic \u00b7 Auto 10",
+      "cert": "76329226",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": false,
+      "significance": "1st Bowman Chrome purple refractor /250 with authenticated autograph graded 10",
+      "priority": "High",
+      "recordUrl": "item-c-bb-0019.html",
+      "slug": "item-c-bb-0019.html",
+      "photos": {
+        "front": "assets/cards/bb-0019-front.jpg",
+        "back": "assets/cards/bb-0019-back.jpg"
+      },
+      "valuation": {
+        "low": 150,
+        "high": 300,
+        "currency": "USD",
+        "type": "working_market_range_2026-08"
+      },
+      "note": "Actual graded card photographed front and back. Working market range based on recent comparable sales; not a formal appraisal."
+    },
+    {
+      "sku": "C-BB-0020",
+      "title": "Francisco Lindor",
+      "issue": "2011 Bowman Chrome Draft Prospect Auto #BCAP-FL",
+      "year": 2011,
+      "publisher": "Bowman Chrome Draft",
+      "manufacturer": "Bowman Chrome Draft",
+      "cardNumber": "BCAP-FL",
+      "team": "Cleveland Indians",
+      "sport": "Baseball",
+      "position": "Shortstop",
+      "status": "Graded",
+      "grade": "PSA 10 Gem Mint \u00b7 Auto 10",
+      "cert": "23120976",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": false,
+      "significance": "1st Bowman Chrome prospect autograph; PSA 10 with Auto 10",
+      "priority": "Very High",
+      "recordUrl": "item-c-bb-0020.html",
+      "slug": "item-c-bb-0020.html",
+      "photos": {
+        "front": "assets/cards/bb-0020-front.jpg",
+        "back": "assets/cards/bb-0020-back.jpg"
+      },
+      "valuation": {
+        "low": 700,
+        "high": 950,
+        "currency": "USD",
+        "type": "working_market_range_2026-08"
+      },
+      "note": "Actual graded card photographed front and back. Working market range based on recent comparable sales; not a formal appraisal."
+    },
+    {
+      "sku": "C-BB-0021",
+      "title": "Mark Vientos",
+      "issue": "2017 Bowman Draft Chrome DP Auto Refractor #CDA-MV /499",
+      "year": 2017,
+      "publisher": "Bowman Draft",
+      "manufacturer": "Bowman Draft",
+      "cardNumber": "CDA-MV",
+      "team": "New York Mets",
+      "sport": "Baseball",
+      "position": "Third Base",
+      "status": "Graded",
+      "grade": "PSA 10 Gem Mint",
+      "cert": "42585102",
+      "category": "Baseball Cards",
+      "rookie": false,
+      "hallOfFame": false,
+      "significance": "1st Bowman Chrome draft pick autograph refractor, serial-numbered /499",
+      "priority": "High",
+      "recordUrl": "item-c-bb-0021.html",
+      "slug": "item-c-bb-0021.html",
+      "photos": {
+        "front": "assets/cards/bb-0021-front.jpg",
+        "back": "assets/cards/bb-0021-back.jpg"
+      },
+      "valuation": {
+        "low": 70,
+        "high": 120,
+        "currency": "USD",
+        "type": "working_market_range_2026-08"
+      },
+      "note": "Actual graded card photographed front and back. Working market range based on recent comparable sales; not a formal appraisal."
     }
   ]
 }

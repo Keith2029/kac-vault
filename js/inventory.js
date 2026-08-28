@@ -95,6 +95,11 @@
 
   function render() {
     const filtered = sortItems(getFiltered());
+    const ctx = $('inventory-context');
+    if (ctx) {
+      const cat = $('category').value;
+      ctx.textContent = cat ? `Showing ${cat}. Use the filters below to switch categories or view the full collection.` : 'Showing the full KAC Vault inventory.';
+    }
     $('count').textContent = filtered.length;
     updateAnalytics(filtered);
 
