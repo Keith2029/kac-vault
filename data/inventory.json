@@ -1,9 +1,9 @@
 {
   "schemaVersion": "1.0",
-  "siteVersion": "11.6",
+  "siteVersion": "11.6.2",
   "collection": "KAC Vault",
   "canonicalDomain": "https://kacvault.com",
-  "notes": "KAC Vault v11.6 \u2014 adds basketball card collection and portrait-oriented card fronts.",
+  "notes": "KAC Vault v11.6 — adds basketball card collection and portrait-oriented card fronts.",
   "items": [
     {
       "sku": "C-0001",
@@ -173,7 +173,7 @@
       "publisher": "DC",
       "status": "Raw",
       "grade": "",
-      "significance": "Knightfall \u2014 Breaking of the Batman",
+      "significance": "Knightfall — Breaking of the Batman",
       "priority": "Low",
       "slug": "item-c-0009.html",
       "category": "Comics",
@@ -755,7 +755,7 @@
         "back": "assets/c-0036-back-v2.jpg"
       },
       "note": "First solo Wolverine comic; Yukio cameo on last page",
-      "creators": "Chris Claremont story \u00b7 Frank Miller & Joe Rubinstein cover/art",
+      "creators": "Chris Claremont story · Frank Miller & Joe Rubinstein cover/art",
       "slug": "item-c-0036.html",
       "category": "Comics",
       "recordUrl": "item-c-0036.html",
@@ -808,7 +808,7 @@
       "cert": "0952942018",
       "pages": "White Pages",
       "note": "First issue of the ongoing Wolverine series; 1st Wolverine as Patch",
-      "creators": "Chris Claremont story \u00b7 John Buscema & Al Williamson art \u00b7 John Buscema cover",
+      "creators": "Chris Claremont story · John Buscema & Al Williamson art · John Buscema cover",
       "photos": {
         "front": "assets/c-0038-front-v2.jpg",
         "label": "assets/c-0038-label-v2.jpg",
@@ -837,7 +837,7 @@
       "cert": "1224637011",
       "pages": "White Pages",
       "note": "Doomsday cameo on last page",
-      "creators": "Louise Simonson story \u00b7 Jon Bogdanove & Bob McLeod art \u00b7 Jon Bogdanove & Dennis Janke cover",
+      "creators": "Louise Simonson story · Jon Bogdanove & Bob McLeod art · Jon Bogdanove & Dennis Janke cover",
       "photos": {
         "front": "assets/c-0039-front-v2.jpg",
         "label": "assets/c-0039-label-v2.jpg",
@@ -866,7 +866,7 @@
       "cert": "0609939001",
       "pages": "White Pages",
       "note": "Sabretooth appearance; Wolverine pin-up on back cover",
-      "creators": "Chris Claremont story \u00b7 John Buscema & Bill Sienkiewicz art \u00b7 Bill Sienkiewicz cover",
+      "creators": "Chris Claremont story · John Buscema & Bill Sienkiewicz art · Bill Sienkiewicz cover",
       "photos": {
         "front": "assets/c-0040-front-v2.jpg",
         "label": "assets/c-0040-label-v2.jpg",
@@ -944,7 +944,7 @@
         "currency": "USD",
         "type": "pending"
       },
-      "note": "Displayed in a rookie-card holder; 1984 Topps is an early-career card rather than Strawberry\u2019s generally recognized true rookie issue."
+      "note": "Displayed in a rookie-card holder; 1984 Topps is an early-career card rather than Strawberry’s generally recognized true rookie issue."
     },
     {
       "sku": "C-BB-0003",
@@ -994,7 +994,7 @@
       "category": "Baseball Cards",
       "rookie": true,
       "hallOfFame": true,
-      "significance": "Rickey Henderson rookie card \u2014 second copy",
+      "significance": "Rickey Henderson rookie card — second copy",
       "priority": "Critical",
       "recordUrl": "item-c-bb-0004.html",
       "slug": "item-c-bb-0004.html",
@@ -1343,7 +1343,7 @@
       "sport": "Baseball",
       "position": "Outfield",
       "status": "Graded",
-      "grade": "PSA/DNA Authentic \u00b7 Auto 10",
+      "grade": "PSA/DNA Authentic · Auto 10",
       "cert": "82954401",
       "category": "Baseball Cards",
       "rookie": false,
@@ -1359,39 +1359,6 @@
       "valuation": {
         "low": 175,
         "high": 300,
-        "currency": "USD",
-        "type": "working_market_range_2026-08"
-      },
-      "note": "Actual graded card photographed front and back. Working market range based on recent comparable sales; not a formal appraisal."
-    },
-    {
-      "sku": "C-BB-0016",
-      "title": "Victor Wembanyama",
-      "issue": "2023-24 Panini Prizm Ice #136",
-      "year": 2023,
-      "publisher": "Panini Prizm",
-      "manufacturer": "Panini Prizm",
-      "cardNumber": "136",
-      "team": "San Antonio Spurs",
-      "sport": "Basketball",
-      "position": "Center / Forward",
-      "status": "Graded",
-      "grade": "PSA 10 Gem Mint",
-      "cert": "92661964",
-      "category": "Basketball Cards",
-      "rookie": true,
-      "hallOfFame": false,
-      "significance": "Prizm Ice rookie card; PSA 10",
-      "priority": "Very High",
-      "recordUrl": "item-c-bb-0016.html",
-      "slug": "item-c-bb-0016.html",
-      "photos": {
-        "front": "assets/cards/bb-0016-front.jpg",
-        "back": "assets/cards/bb-0016-back.jpg"
-      },
-      "valuation": {
-        "low": 1300,
-        "high": 1700,
         "currency": "USD",
         "type": "working_market_range_2026-08"
       },
@@ -1475,7 +1442,7 @@
       "sport": "Baseball",
       "position": "Shortstop",
       "status": "Graded",
-      "grade": "PSA/DNA Authentic \u00b7 Auto 10",
+      "grade": "PSA/DNA Authentic · Auto 10",
       "cert": "76329226",
       "category": "Baseball Cards",
       "rookie": false,
@@ -1508,7 +1475,7 @@
       "sport": "Baseball",
       "position": "Shortstop",
       "status": "Graded",
-      "grade": "PSA 10 Gem Mint \u00b7 Auto 10",
+      "grade": "PSA 10 Gem Mint · Auto 10",
       "cert": "23120976",
       "category": "Baseball Cards",
       "rookie": false,
@@ -1566,10 +1533,10 @@
       "sku": "C-BK-0001",
       "title": "Michael Jordan",
       "issue": "1991 Fleer #29",
-      "year": 1991,
+      "year": 1989,
       "publisher": "Fleer",
       "manufacturer": "Fleer",
-      "cardNumber": "29",
+      "cardNumber": "21",
       "team": "Chicago Bulls",
       "sport": "Basketball",
       "position": "Guard",
@@ -1578,10 +1545,10 @@
       "category": "Basketball Cards",
       "rookie": false,
       "hallOfFame": true,
-      "significance": "Hall of Fame Michael Jordan issue",
+      "significance": "1989-90 Fleer Scoring Average Leader Michael Jordan issue",
       "priority": "High",
       "recordUrl": "item-c-bk-0001.html",
-      "slug": "item-c-bk-0001.html",
+      "slug": "michael-jordan-1989-fleer-21",
       "photos": {
         "front": "assets/cards/bk-0001-front.jpg"
       },
@@ -1750,6 +1717,69 @@
         "type": "TBD"
       },
       "note": "Actual card photographed for the KAC Vault. Raw/ungraded; value left TBD pending market review."
+    },
+    {
+      "sku": "C-BK-0007",
+      "category": "Basketball Cards",
+      "sport": "Basketball",
+      "title": "Michael Jordan",
+      "year": 1991,
+      "manufacturer": "Fleer",
+      "cardNumber": "29",
+      "team": "Chicago Bulls",
+      "position": "Guard",
+      "rookie": false,
+      "hallOfFame": true,
+      "status": "Raw",
+      "grade": "Raw / Ungraded",
+      "significance": "1991 Fleer Michael Jordan issue",
+      "priority": "Review for grading",
+      "slug": "michael-jordan-1991-fleer-29",
+      "recordUrl": "item-c-bk-0007.html",
+      "valuation": {
+        "low": 0,
+        "high": 0,
+        "asOf": "",
+        "note": "Value intentionally left open pending market review"
+      },
+      "photos": {
+        "front": "assets/cards/bk-0007-front.jpg",
+        "back": "assets/cards/bk-0007-back.jpg"
+      },
+      "note": "Actual card photographed front and back."
+    },
+    {
+      "sku": "C-BK-0008",
+      "title": "Victor Wembanyama",
+      "issue": "2023-24 Panini Prizm Ice #136",
+      "year": 2023,
+      "publisher": "Panini Prizm",
+      "manufacturer": "Panini Prizm",
+      "cardNumber": "136",
+      "team": "San Antonio Spurs",
+      "sport": "Basketball",
+      "position": "Center / Forward",
+      "status": "Graded",
+      "grade": "PSA 10 Gem Mint",
+      "cert": "92661964",
+      "category": "Basketball Cards",
+      "rookie": true,
+      "hallOfFame": false,
+      "significance": "Prizm Ice rookie card; PSA 10",
+      "priority": "Very High",
+      "recordUrl": "item-c-bk-0008.html",
+      "slug": "victor-wembanyama-2023-24-panini-prizm-ice-136",
+      "photos": {
+        "front": "assets/cards/bk-0008-front.jpg",
+        "back": "assets/cards/bk-0008-back.jpg"
+      },
+      "valuation": {
+        "low": 1300,
+        "high": 1700,
+        "currency": "USD",
+        "type": "working_market_range_2026-08"
+      },
+      "note": "Actual graded card photographed front and back. Working market range based on recent comparable sales; not a formal appraisal."
     },
     {
       "sku": "C-BK-0009",
