@@ -1,6 +1,6 @@
 window.KAC_INVENTORY_DATA = {
   "schemaVersion": "1.0",
-  "siteVersion": "11.6.2",
+  "siteVersion": "11.7",
   "collection": "KAC Vault",
   "canonicalDomain": "https://kacvault.com",
   "notes": "KAC Vault v11.6 — adds basketball card collection and portrait-oriented card fronts.",

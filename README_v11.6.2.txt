@@ -1,4 +1,4 @@
-KAC Vault v11.6.2
+KAC Vault v11.6.3
 
 Basketball inventory correction:
 - 11 total basketball cards, C-BK-0001 through C-BK-0011.
