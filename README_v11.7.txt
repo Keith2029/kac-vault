@@ -1,4 +1,4 @@
-KAC Vault v11.7.2
+KAC Vault v11.7.4
 
 Built from the user-supplied v11.6.3 baseline.
 - Preserves all prior inventory, item pages, memories, photos and site functionality.

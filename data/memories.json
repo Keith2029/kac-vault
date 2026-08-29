@@ -432,11 +432,17 @@
     "sport": "Baseball",
     "venue": "Citi Field",
     "result": "Mets 6, Giants 2",
-    "image": "",
+    "image": "assets/memories/galleries/2022-mets-giants-apr21-02.jpeg",
     "id": "2022-mets-giants",
-    "recap": "The Mets scored in each of the first three innings and built a 5–1 lead before the game had settled in. Carlos Carrasco controlled the Giants into the eighth inning, while New York collected 12 hits and added a late insurance run for a 6–2 victory. The win gave the Mets three victories in the four-game series at Citi Field.",
-    "personalNote": "This memory is preserved from the family photo book. The original photographs can be added here later so the page becomes a fuller record of the day — not just the score, but the people, place and experience around the game.",
-    "gallery": [],
+    "recap": "The Mets beat the San Francisco Giants 6-2 at Citi Field. Carlos Carrasco delivered 7 2/3 strong innings, allowing four hits and two runs while striking out seven. Francisco Lindor went 3-for-5 with a home run, two runs scored and an RBI, and Eduardo Escobar homered as New York took three of four in the series.",
+    "personalNote": "A family day at Citi Field captured from the seats and around the ballpark. The photos preserve the view of the field, time together in the stands, and a framed image of the 1986 Mets celebration — a fitting piece of Mets history alongside the day.",
+    "gallery": [
+      "assets/memories/galleries/2022-mets-giants-apr21-01.jpeg",
+      "assets/memories/galleries/2022-mets-giants-apr21-02.jpeg",
+      "assets/memories/galleries/2022-mets-giants-apr21-03.jpeg",
+      "assets/memories/galleries/2022-mets-giants-apr21-04.jpeg",
+      "assets/memories/galleries/2022-mets-giants-apr21-05.jpeg"
+    ],
     "boxScore": [
       [
         "Team",
@@ -485,44 +491,6 @@
       ]
     ],
     "leaders": [
-      "Winning pitcher: Carlos Carrasco",
-      "Losing pitcher: Anthony DeSclafani",
-      "Mets scored in each of the first 3 innings"
-    ]
-  },
-  {
-    "id": "2022-mets-giants-apr21",
-    "date": "2022-04-21",
-    "title": "Mets vs. Giants",
-    "subtitle": "Citi Field",
-    "sport": "Baseball",
-    "location": "Citi Field",
-    "score": "Mets 6, Giants 2",
-    "image": "assets/memories/galleries/2022-mets-giants-apr21-02.jpeg",
-    "gallery": [
-      "assets/memories/galleries/2022-mets-giants-apr21-01.jpeg",
-      "assets/memories/galleries/2022-mets-giants-apr21-02.jpeg",
-      "assets/memories/galleries/2022-mets-giants-apr21-03.jpeg",
-      "assets/memories/galleries/2022-mets-giants-apr21-04.jpeg",
-      "assets/memories/galleries/2022-mets-giants-apr21-05.jpeg"
-    ],
-    "personalNote": "A family day at Citi Field captured from the seats and around the ballpark. The photos preserve the view of the field, time together in the stands, and a framed image of the 1986 Mets celebration — a fitting piece of Mets history alongside the day.",
-    "recap": "The Mets beat the San Francisco Giants 6-2 at Citi Field. Carlos Carrasco delivered 7 2/3 strong innings, allowing four hits and two runs while striking out seven. Francisco Lindor went 3-for-5 with a home run, two runs scored and an RBI, and Eduardo Escobar homered as New York took three of four in the series.",
-    "boxScore": {
-      "away": {
-        "team": "San Francisco Giants",
-        "runs": 2,
-        "hits": 5,
-        "errors": 0
-      },
-      "home": {
-        "team": "New York Mets",
-        "runs": 6,
-        "hits": 11,
-        "errors": 1
-      }
-    },
-    "leaders": [
       "Francisco Lindor — 3-for-5, HR, 2 R, RBI",
       "Eduardo Escobar — HR, RBI",
       "Carlos Carrasco — 7.2 IP, 4 H, 2 R, 0 BB, 7 K"
@@ -570,6 +538,54 @@
       "Auburn: Tank Bigsby — 2 rushing TD",
       "Penn State scored a TD in all 4 quarters",
       "Auburn pulled within 21–20 in the 4th"
+    ]
+  },
+  {
+    "id": "2021-auburn-penn-state-white-out",
+    "date": "2021-09-18",
+    "title": "Auburn vs. Penn State",
+    "subtitle": "White Out",
+    "sport": "Football",
+    "location": "Beaver Stadium",
+    "score": "Penn State 28, Auburn 20",
+    "image": "assets/memories/galleries/2021-auburn-penn-state-white-out-08.jpeg",
+    "gallery": [
+      "assets/memories/galleries/2021-auburn-penn-state-white-out-01.jpeg",
+      "assets/memories/galleries/2021-auburn-penn-state-white-out-02.jpeg",
+      "assets/memories/galleries/2021-auburn-penn-state-white-out-03.jpeg",
+      "assets/memories/galleries/2021-auburn-penn-state-white-out-04.jpeg",
+      "assets/memories/galleries/2021-auburn-penn-state-white-out-05.jpeg",
+      "assets/memories/galleries/2021-auburn-penn-state-white-out-06.jpeg",
+      "assets/memories/galleries/2021-auburn-penn-state-white-out-07.jpeg",
+      "assets/memories/galleries/2021-auburn-penn-state-white-out-08.jpeg",
+      "assets/memories/galleries/2021-auburn-penn-state-white-out-09.jpeg",
+      "assets/memories/galleries/2021-auburn-penn-state-white-out-10.jpeg"
+    ],
+    "personalNote": "A trip to Happy Valley for one of college football's signature experiences — the Penn State White Out. The gallery follows the day from State College and Penn State landmarks, including Old Main and the Nittany Lion, through the pregame crowd and into a packed Beaver Stadium under the lights.",
+    "recap": "No. 22 Auburn traveled to Beaver Stadium to face No. 10 Penn State in the White Out. Auburn stayed within one point early in the fourth quarter after Anders Carlson's 43-yard field goal made it 21-20, but Noah Cain's late touchdown extended Penn State's lead. Auburn drove to the Penn State 23 in the final seconds, where the Nittany Lions broke up the final pass to preserve a 28-20 win. Tank Bigsby scored both Auburn touchdowns and rushed for 102 yards.",
+    "boxScore": {
+      "away": {
+        "team": "Auburn Tigers",
+        "q1": 3,
+        "q2": 7,
+        "q3": 7,
+        "q4": 3,
+        "runs": 20
+      },
+      "home": {
+        "team": "Penn State Nittany Lions",
+        "q1": 7,
+        "q2": 7,
+        "q3": 7,
+        "q4": 7,
+        "runs": 28
+      }
+    },
+    "leaders": [
+      "Auburn: Bo Nix — 21/37, 185 passing yards",
+      "Auburn: Tank Bigsby — 23 carries, 102 yards, 2 TD",
+      "Penn State: Sean Clifford — 28/32, 280 yards, 2 TD",
+      "Penn State: Jahan Dotson — 10 receptions, 78 yards, TD"
     ]
   },
   {
