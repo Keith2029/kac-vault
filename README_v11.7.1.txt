@@ -1,4 +1,4 @@
-KAC Vault v11.7.4
+KAC Vault v11.8.0
 
 Built from v11.7.
 - Uses the supplied nighttime Jordan-Hare Stadium photo as the cover image for the September 3, 2022 Auburn vs Mercer memory.

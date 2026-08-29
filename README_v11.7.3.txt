@@ -1,4 +1,4 @@
-KAC Vault v11.7.4
+KAC Vault v11.8.0
 
 Corrective build from v11.7.2.
 - Fixes Auburn vs. Mercer front-card cover photo.
