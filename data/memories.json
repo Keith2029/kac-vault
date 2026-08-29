@@ -371,11 +371,12 @@
     "sport": "Football",
     "venue": "Jordan-Hare Stadium",
     "result": "Auburn 42, Mercer 16",
-    "image": "assets/memories/galleries/2022-auburn-mercer-13.jpeg",
+    "image": "assets/memories/galleries/2022-auburn-mercer-cover.jpeg",
     "id": "2022-auburn-mercer",
     "recap": "Auburn opened the 2022 season by scoring touchdowns on each of its first six scoring drives and beating Mercer 42–16. The Tigers led 28–7 at halftime and added two more touchdowns in the third quarter before weather interrupted the night. Jarquez Hunter ran for three touchdowns, Tank Bigsby added two more, and Auburn finished with 497 yards of offense.",
     "personalNote": "A full Auburn weekend preserved around the 2022 season opener — time in town, Samford Hall and downtown Auburn, food and drinks, exploring the area, and the game-day atmosphere at Jordan-Hare Stadium. The photographs capture the trip as a family memory, not just the football game.",
     "gallery": [
+      "assets/memories/galleries/2022-auburn-mercer-cover.jpeg",
       "assets/memories/galleries/2022-auburn-mercer-01.jpeg",
       "assets/memories/galleries/2022-auburn-mercer-02.jpeg",
       "assets/memories/galleries/2022-auburn-mercer-03.jpeg",
@@ -487,6 +488,44 @@
       "Winning pitcher: Carlos Carrasco",
       "Losing pitcher: Anthony DeSclafani",
       "Mets scored in each of the first 3 innings"
+    ]
+  },
+  {
+    "id": "2022-mets-giants-apr21",
+    "date": "2022-04-21",
+    "title": "Mets vs. Giants",
+    "subtitle": "Citi Field",
+    "sport": "Baseball",
+    "location": "Citi Field",
+    "score": "Mets 6, Giants 2",
+    "image": "assets/memories/galleries/2022-mets-giants-apr21-02.jpeg",
+    "gallery": [
+      "assets/memories/galleries/2022-mets-giants-apr21-01.jpeg",
+      "assets/memories/galleries/2022-mets-giants-apr21-02.jpeg",
+      "assets/memories/galleries/2022-mets-giants-apr21-03.jpeg",
+      "assets/memories/galleries/2022-mets-giants-apr21-04.jpeg",
+      "assets/memories/galleries/2022-mets-giants-apr21-05.jpeg"
+    ],
+    "personalNote": "A family day at Citi Field captured from the seats and around the ballpark. The photos preserve the view of the field, time together in the stands, and a framed image of the 1986 Mets celebration — a fitting piece of Mets history alongside the day.",
+    "recap": "The Mets beat the San Francisco Giants 6-2 at Citi Field. Carlos Carrasco delivered 7 2/3 strong innings, allowing four hits and two runs while striking out seven. Francisco Lindor went 3-for-5 with a home run, two runs scored and an RBI, and Eduardo Escobar homered as New York took three of four in the series.",
+    "boxScore": {
+      "away": {
+        "team": "San Francisco Giants",
+        "runs": 2,
+        "hits": 5,
+        "errors": 0
+      },
+      "home": {
+        "team": "New York Mets",
+        "runs": 6,
+        "hits": 11,
+        "errors": 1
+      }
+    },
+    "leaders": [
+      "Francisco Lindor — 3-for-5, HR, 2 R, RBI",
+      "Eduardo Escobar — HR, RBI",
+      "Carlos Carrasco — 7.2 IP, 4 H, 2 R, 0 BB, 7 K"
     ]
   },
   {
